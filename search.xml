@@ -1564,7 +1564,88 @@
 <p>关于异步编程的更多信息，可以参考<strong><a href="https://dart.dev/guides/libraries/library-tour#dartasync---asynchronous-programming" target="_blank" rel="noopener">dart:async</a></strong>部分。</p>
 <br>
 
-<p>（未完待续）</p>
+<h3 id="Generators-生成器"><a href="#Generators-生成器" class="headerlink" title="Generators 生成器"></a>Generators 生成器</h3><p>当需要延时创建一系列值时，可以考虑使用生成器函数（<em>generator function</em>）。Dart原生支持两种生成器函数：</p>
+<ul>
+<li>同步生成器（<strong>Synchronous generator</strong>）：返回一个<strong><a href="https://api.dart.dev/stable/dart-core/Iterable-class.html" target="_blank" rel="noopener">Iterable</a></strong>对象；</li>
+<li>异步生成器（<strong>Asynchronous generator</strong>）：返回一个<strong><a href="https://api.dart.dev/stable/dart-async/Stream-class.html" target="_blank" rel="noopener">Stream</a></strong>对象；</li>
+</ul>
+<p>要实现一个同步生成器函数，需要将函数体标记为<font color=green><em>sync**</font>，并使用<font color=green>*yield</em></font>语句返回值:</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Iterable</span>&lt;<span class="built_in">int</span>&gt; naturalsTo(<span class="built_in">int</span> n) <span class="keyword">sync</span>* &#123;</span><br><span class="line">  <span class="built_in">int</span> k = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">while</span> (k &lt; n) <span class="keyword">yield</span> k++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>要实现一个异步生成器函数，需要将函数体标记为<font color=green><em>async**</font>，并使用<font color=green>*yield</em></font>语句返回值:</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line">Stream&lt;<span class="built_in">int</span>&gt; asynchronousNaturalsTo(<span class="built_in">int</span> n) <span class="keyword">async</span>* &#123;</span><br><span class="line">  <span class="built_in">int</span> k = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">while</span> (k &lt; n) <span class="keyword">yield</span> k++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果生成器是递归式的，可以通过使用<font color=green><em>yield*</em></font>改进它的性能：</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Iterable</span>&lt;<span class="built_in">int</span>&gt; naturalsDownFrom(<span class="built_in">int</span> n) <span class="keyword">sync</span>* &#123;</span><br><span class="line">  <span class="keyword">if</span> (n &gt; <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">yield</span> n;</span><br><span class="line">    <span class="keyword">yield</span>* naturalsDownFrom(n - <span class="number">1</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h3 id="Callable-Classes"><a href="#Callable-Classes" class="headerlink" title="Callable Classes"></a>Callable Classes</h3><p>在Dart中，如果要允许类的实例能够像函数一样被调用，可以通过实现类的<font color=green><em>call()</em></font>来达到。</p>
+<p>下面这个例子中，<font color=green><em>WannabeFunction</em></font>类定义了一个call函数，将三个字符串通过空格连接起来，并附加一个感叹号。（具体内容略）</p>
+<br>
+
+<h3 id="Isolates-隔离器"><a href="#Isolates-隔离器" class="headerlink" title="Isolates 隔离器"></a>Isolates 隔离器</h3><p>多数计算机，即使在移动平台上，都支持多核CPU。为了充分利用多核性能，开发人员通常使用并发运行的共享内存线程。然而，共享并发状态很容易出错，同时可能会导致代码过于复杂。而在Dart中，所有代码都运行在隔离器（<em>isolates</em>）内部，而不是线程中。每个隔离器都有它自己的存储堆，而确保隔离器的状态不会被其他隔离器访问到。</p>
+<p>更多内容可以参考下面的链接：</p>
+<ul>
+<li><strong><a href="https://medium.com/dartlang/dart-asynchronous-programming-isolates-and-event-loops-bffc3e296a6a" target="_blank" rel="noopener">Dart asynchronous programming: Isolates and event loops</a></strong>；</li>
+<li><strong><a href="https://api.dart.dev/stable/dart-isolate" target="_blank" rel="noopener">dart:isolate API reference</a></strong>，包括<strong><a href="https://api.dart.dev/stable/dart-isolate/Isolate/spawn.html" target="_blank" rel="noopener">Isolate.spawn()</a></strong>和<strong><a href="https://api.dart.dev/stable/dart-isolate/TransferableTypedData-class.html" target="_blank" rel="noopener">TransferableTypedData</a></strong>；</li>
+<li>flutter网站上的<strong><a href="https://flutter.dev/docs/cookbook/networking/background-parsing" target="_blank" rel="noopener">Background parsing</a></strong> cookbook；</li>
+<li><strong><a href="https://github.com/flutter/samples/tree/master/isolate_example" target="_blank" rel="noopener">Isolate sample app</a></strong>；</li>
+</ul>
+<br>
+
+<h3 id="Typedef"><a href="#Typedef" class="headerlink" title="Typedef"></a>Typedef</h3><p>在Dart中，函数和字符串、数值一样都是对象。<em>typedef</em>或者函数类型别名，为函数提供了一个类型名，你可以在声明字段或者返回类型的时候使用。</p>
+<p>当将函数类型赋值给变量时，typedef会保留相关的类型信息。</p>
+<p>考虑下面这段代码，这里没有使用typedef：</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SortedCollection</span> </span>&#123;</span><br><span class="line">  <span class="built_in">Function</span> compare;</span><br><span class="line"></span><br><span class="line">  SortedCollection(<span class="built_in">int</span> f(<span class="built_in">Object</span> a, <span class="built_in">Object</span> b)) &#123;</span><br><span class="line">    compare = f;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Initial, broken implementation.</span></span><br><span class="line"><span class="built_in">int</span> sort(<span class="built_in">Object</span> a, <span class="built_in">Object</span> b) =&gt; <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line">  SortedCollection coll = SortedCollection(sort);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// All we know is that compare is a function,</span></span><br><span class="line">  <span class="comment">// but what type of function?</span></span><br><span class="line">  <span class="keyword">assert</span>(coll.compare <span class="keyword">is</span> <span class="built_in">Function</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>类型信息在将<font color=green><em>f</em></font>赋值给<font color=green><em>compare</em></font>时丢掉了。这段代码中<font color=green><em>f</em></font>的类型是<font color=green><em>(Object, Object)  → int</em></font>（这里→意思是返回）， 而<font color=green><em>compare</em></font>的类型是Function。如果更改代码以使用显式命名并且保留类型信息，开发者和工具就可以使用这些信息了。</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> Compare = <span class="built_in">int</span> <span class="built_in">Function</span>(<span class="built_in">Object</span> a, <span class="built_in">Object</span> b);</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SortedCollection</span> </span>&#123;</span><br><span class="line">  Compare compare;</span><br><span class="line"></span><br><span class="line">  SortedCollection(<span class="keyword">this</span>.compare);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Initial, broken implementation.</span></span><br><span class="line"><span class="built_in">int</span> sort(<span class="built_in">Object</span> a, <span class="built_in">Object</span> b) =&gt; <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line">  SortedCollection coll = SortedCollection(sort);</span><br><span class="line">  <span class="keyword">assert</span>(coll.compare <span class="keyword">is</span> <span class="built_in">Function</span>);</span><br><span class="line">  <span class="keyword">assert</span>(coll.compare <span class="keyword">is</span> Compare);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：当前typedef仅限用于函数，我们期待后面有所改变。</p>
+</blockquote>
+<br>
+
+<p>因为typedef只是简单的别名，它提供了一种检查任何函数类型的方法。比如：</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> Compare&lt;T&gt; = <span class="built_in">int</span> <span class="built_in">Function</span>(T a, T b);</span><br><span class="line"></span><br><span class="line"><span class="built_in">int</span> sort(<span class="built_in">int</span> a, <span class="built_in">int</span> b) =&gt; a - b;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line">  <span class="keyword">assert</span>(sort <span class="keyword">is</span> Compare&lt;<span class="built_in">int</span>&gt;); <span class="comment">// True!</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h3 id="Metadata"><a href="#Metadata" class="headerlink" title="Metadata"></a>Metadata</h3><p>可以使用metadata为你的代码添加附加信息。一个metadata注解以<font color=green><em>@</em></font>开头，后面跟着对编译时常量的引用（比如<font color=green><em>deprecated</em></font>），或者对常量构造函数的调用。</p>
+<p>两个对所有Dart代码有效的注解：<font color=green><em>@deprecated</em></font>和<font color=green><em>@override</em></font>。比如<strong><a href="https://dart.dev/guides/language/language-tour#extending-a-class" target="_blank" rel="noopener">Extending a class</a></strong>章节中对<font color=green><em>@override</em></font>的使用，下面是使用<font color=green><em>@deprecated</em></font>注解的例子：</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Television</span> </span>&#123;</span><br><span class="line">  <span class="comment">/// <span class="markdown"><span class="emphasis">_Deprecated: Use [turnOn] instead._</span></span></span></span><br><span class="line">  <span class="meta">@deprecated</span></span><br><span class="line">  <span class="keyword">void</span> activate() &#123;</span><br><span class="line">    turnOn();</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/// <span class="markdown">Turns the TV's power on.</span></span></span><br><span class="line">  <span class="keyword">void</span> turnOn() &#123;...&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>你可以定义自己的metadata注解，下面是一个带有两个参数的自定义注解@todo的例子：</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">library</span> todo;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Todo</span> </span>&#123;</span><br><span class="line">  <span class="keyword">final</span> <span class="built_in">String</span> who;</span><br><span class="line">  <span class="keyword">final</span> <span class="built_in">String</span> what;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> Todo(<span class="keyword">this</span>.who, <span class="keyword">this</span>.what);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这是使用@todo注解的例子：</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'todo.dart'</span>;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Todo</span>(<span class="string">'seth'</span>, <span class="string">'make this do something'</span>)</span><br><span class="line"><span class="keyword">void</span> doSomething() &#123;</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">'do something'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>metadata可以放在库、类、typedef、类型参数、构造函数、factory、函数、字段、参数或者变量声明之前，也可以放在import和export指令之前。可以通过反射在运行时提取metadata信息。</p>
+<br>
+
+<h3 id="Comments-注释"><a href="#Comments-注释" class="headerlink" title="Comments 注释"></a>Comments 注释</h3><p>Dart支持单行注释、多行注释，以及文档式注释。</p>
+<h4 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a>单行注释</h4><p>单行注释以<font color=green><em>//</em></font>开头，自<font color=green><em>//</em></font>起到行末的所有字符都会被Dart编译器略掉。</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line">  <span class="comment">// <span class="doctag">TODO:</span> refactor into an AbstractLlamaGreetingFactory?</span></span><br><span class="line">  <span class="built_in">print</span>(<span class="string">'Welcome to my Llama farm!'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h4 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a>多行注释</h4><p>多行注释以<font color=green><em>/**</font>开头，以<font color=green>*\</em>/*</font>结尾，这之间的字符都会被Dart编译器略掉（除非是文档式注释，具体看下一章节）。多行注释支持嵌套。</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line">  <span class="comment">/*</span></span><br><span class="line"><span class="comment">   * This is a lot of work. Consider raising chickens.</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  Llama larry = Llama();</span></span><br><span class="line"><span class="comment">  larry.feed();</span></span><br><span class="line"><span class="comment">  larry.exercise();</span></span><br><span class="line"><span class="comment">  larry.clean();</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h4 id="文档式注释"><a href="#文档式注释" class="headerlink" title="文档式注释"></a>文档式注释</h4><p>文档式注释可以是单行，也可以是多行，以<font color=green><em>///</em></font>或者<font color=green><em>/***</font>开头。使用<font color=green></em>///*</font>对连续行注释，与多行doc注释有相同的效果。</p>
+<p>在文档式注释中，Dart编译器会忽略掉所有文本，除非它被括在方括号中。使用方括号可以引用类、方法、字段、全局变量、函数以及参数。方括号中的名字会在文档化程序元素的词法范围内做解析。</p>
+<p>下面这个文档化注释的例子引用了另外的类和参数：</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="comment">/// <span class="markdown">A domesticated South American camelid (Lama glama).</span></span></span><br><span class="line"><span class="comment">///</span></span><br><span class="line"><span class="comment">/// <span class="markdown">Andean cultures have used llamas as meat and pack</span></span></span><br><span class="line"><span class="comment">/// <span class="markdown">animals since pre-Hispanic times.</span></span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Llama</span> </span>&#123;</span><br><span class="line">  <span class="built_in">String</span> name;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/// <span class="markdown">Feeds your llama [Food].</span></span></span><br><span class="line">  <span class="comment">///</span></span><br><span class="line">  <span class="comment">/// <span class="markdown">The typical llama eats one bale of hay per week.</span></span></span><br><span class="line">  <span class="keyword">void</span> feed(Food food) &#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/// <span class="markdown">Exercises your llama with an [activity] for</span></span></span><br><span class="line">  <span class="comment">/// <span class="markdown">[timeLimit] minutes.</span></span></span><br><span class="line">  <span class="keyword">void</span> exercise(Activity activity, <span class="built_in">int</span> timeLimit) &#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在生成的文档中，<font color=green><em>[food]</em></font>会转换为一个链接，指向Food类的API文档。</p>
+<p>如果要解析Dart代码，生成HTML文档，可以使用SDK中的<strong><a href="https://github.com/dart-lang/dartdoc#dartdoc" target="_blank" rel="noopener">documentation generation tool</a></strong>。具体生成文档的例子可以参考<strong><a href="https://api.dart.dev/stable" target="_blank" rel="noopener">Dart API documentation</a></strong>。关于如何结构化注释的建议，可以参考<strong><a href="https://dart.dev/guides/language/effective-dart/documentation" target="_blank" rel="noopener">Guidelines for Dart Doc Comments</a></strong>。</p>
+<br>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>这篇文章总结了Dart语言中常用的特性，更多的新特性还在实现中，但我们希望新特性不会破坏现有的代码。更多内容可以参考<strong><a href="https://dart.dev/guides/language/spec" target="_blank" rel="noopener">Dart language specification</a></strong>和<strong><a href="https://dart.dev/guides/language/effective-dart" target="_blank" rel="noopener">Effective Dart</a></strong>。想要了解Dart核心库，可以参考<strong><a href="https://dart.dev/guides/libraries/library-tour" target="_blank" rel="noopener">A Tour of the Dart Libraries</a></strong>。</p>
 ]]></content>
       <tags>
         <tag>Dart</tag>
