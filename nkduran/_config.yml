@@ -100,7 +100,7 @@ theme: hexo-theme-next-7.7.0
 deploy:
   type: git
   repo: git@github.com:nkduran/nkduran.github.io.git
-  branch: gh-pages
+  branch: master
 
 symbols_count_time:
   #display info in article
