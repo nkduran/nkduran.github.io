@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-01-13T09:53:40.230Z</updated>
+  <updated>2020-01-13T10:12:14.719Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://nkduran.github.io/2020/01/11/dart-tour/"/>
     <id>http://nkduran.github.io/2020/01/11/dart-tour/</id>
     <published>2020-01-10T16:52:20.000Z</published>
-    <updated>2020-01-13T09:53:40.230Z</updated>
+    <updated>2020-01-13T10:12:14.719Z</updated>
     
     <summary type="html">
     
@@ -78,7 +78,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;标识符首字符必须是字母或者下划线，后面则可以跟任意字符或者数字。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Dart同时支持表达式（&lt;strong&gt;&lt;em&gt;expressions&lt;/em&gt;&lt;/strong&gt;，有运行时值）和语句（&lt;strong&gt;&lt;em&gt;statements&lt;/em&gt;&lt;/strong&gt;，无运行时值），例如条件表达式 &lt;strong&gt;*condition ? expr1 : expr2 *&lt;/strong&gt;可以取值expr1或者expr2，而if-else语句则没有取值。一个语句经常包含多个表达式，而一个表达式不能直接包含语句。&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Dart同时支持表达式（&lt;strong&gt;&lt;em&gt;expressions&lt;/em&gt;&lt;/strong&gt;，有运行时值）和语句（&lt;strong&gt;&lt;em&gt;statements&lt;/em&gt;&lt;/strong&gt;，无运行时值），例如条件表达式 &lt;strong&gt;&lt;em&gt;condition ? expr1 : expr2&lt;/em&gt;&lt;/strong&gt;可以取值expr1或者expr2，而if-else语句则没有取值。一个语句经常包含多个表达式，而一个表达式不能直接包含语句。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Dart工具支持上报两类问题：&lt;strong&gt;&lt;em&gt;warnings&lt;/em&gt;&lt;/strong&gt; 和 &lt;strong&gt;&lt;em&gt;errors&lt;/em&gt;&lt;/strong&gt;。Warnings表明代码有可能不会正常工作，但不会妨碍程序运行。Errors又分编译时错误和运行时错误，编译时错误会造成程序无法运行，运行时错误会使程序在运行过程中抛出异常造成运行中断。&lt;/p&gt;
 &lt;/li&gt;
