@@ -91,7 +91,7 @@ main() {
 
 + 标识符首字符必须是字母或者下划线，后面则可以跟任意字符或者数字。
 
-+ Dart同时支持表达式（***expressions***，有运行时值）和语句（***statements***，无运行时值），例如条件表达式 ***condition ? expr1 : expr2 ***可以取值expr1或者expr2，而if-else语句则没有取值。一个语句经常包含多个表达式，而一个表达式不能直接包含语句。
++ Dart同时支持表达式（***expressions***，有运行时值）和语句（***statements***，无运行时值），例如条件表达式 ***condition ? expr1 : expr2***可以取值expr1或者expr2，而if-else语句则没有取值。一个语句经常包含多个表达式，而一个表达式不能直接包含语句。
 
 + Dart工具支持上报两类问题：***warnings*** 和 ***errors***。Warnings表明代码有可能不会正常工作，但不会妨碍程序运行。Errors又分编译时错误和运行时错误，编译时错误会造成程序无法运行，运行时错误会使程序在运行过程中抛出异常造成运行中断。
 
@@ -2965,4 +2965,253 @@ Future main() async {
 
 <br>
 
-（未完待续）
+### Generators 生成器
+
+当需要延时创建一系列值时，可以考虑使用生成器函数（*generator function*）。Dart原生支持两种生成器函数：
+
++ 同步生成器（**Synchronous generator**）：返回一个**[Iterable](https://api.dart.dev/stable/dart-core/Iterable-class.html)**对象；
++ 异步生成器（**Asynchronous generator**）：返回一个**[Stream](https://api.dart.dev/stable/dart-async/Stream-class.html)**对象；
+
+要实现一个同步生成器函数，需要将函数体标记为<font color=green>*sync\**</font>，并使用<font color=green>*yield*</font>语句返回值:
+
+```dart
+Iterable<int> naturalsTo(int n) sync* {
+  int k = 0;
+  while (k < n) yield k++;
+}
+```
+
+要实现一个异步生成器函数，需要将函数体标记为<font color=green>*async\**</font>，并使用<font color=green>*yield*</font>语句返回值:
+
+```dart
+Stream<int> asynchronousNaturalsTo(int n) async* {
+  int k = 0;
+  while (k < n) yield k++;
+}
+```
+
+如果生成器是递归式的，可以通过使用<font color=green>*yield\**</font>改进它的性能：
+
+```dart
+Iterable<int> naturalsDownFrom(int n) sync* {
+  if (n > 0) {
+    yield n;
+    yield* naturalsDownFrom(n - 1);
+  }
+}
+```
+
+<br>
+
+### Callable Classes
+
+在Dart中，如果要允许类的实例能够像函数一样被调用，可以通过实现类的<font color=green>*call()*</font>来达到。
+
+下面这个例子中，<font color=green>*WannabeFunction*</font>类定义了一个call函数，将三个字符串通过空格连接起来，并附加一个感叹号。（具体内容略）
+
+<br>
+
+### Isolates 隔离器
+
+多数计算机，即使在移动平台上，都支持多核CPU。为了充分利用多核性能，开发人员通常使用并发运行的共享内存线程。然而，共享并发状态很容易出错，同时可能会导致代码过于复杂。而在Dart中，所有代码都运行在隔离器（*isolates*）内部，而不是线程中。每个隔离器都有它自己的存储堆，而确保隔离器的状态不会被其他隔离器访问到。
+
+更多内容可以参考下面的链接：
+
++ **[Dart asynchronous programming: Isolates and event loops](https://medium.com/dartlang/dart-asynchronous-programming-isolates-and-event-loops-bffc3e296a6a)**；
++ **[dart:isolate API reference](https://api.dart.dev/stable/dart-isolate)**，包括**[Isolate.spawn()](https://api.dart.dev/stable/dart-isolate/Isolate/spawn.html)**和**[TransferableTypedData](https://api.dart.dev/stable/dart-isolate/TransferableTypedData-class.html)**；
++ flutter网站上的**[Background parsing](https://flutter.dev/docs/cookbook/networking/background-parsing)** cookbook；
++ **[Isolate sample app](https://github.com/flutter/samples/tree/master/isolate_example)**；
+
+<br>
+
+### Typedef
+
+在Dart中，函数和字符串、数值一样都是对象。*typedef*或者函数类型别名，为函数提供了一个类型名，你可以在声明字段或者返回类型的时候使用。
+
+当将函数类型赋值给变量时，typedef会保留相关的类型信息。
+
+考虑下面这段代码，这里没有使用typedef：
+
+```dart
+class SortedCollection {
+  Function compare;
+
+  SortedCollection(int f(Object a, Object b)) {
+    compare = f;
+  }
+}
+
+// Initial, broken implementation.
+int sort(Object a, Object b) => 0;
+
+void main() {
+  SortedCollection coll = SortedCollection(sort);
+
+  // All we know is that compare is a function,
+  // but what type of function?
+  assert(coll.compare is Function);
+}
+```
+
+类型信息在将<font color=green>*f*</font>赋值给<font color=green>*compare*</font>时丢掉了。这段代码中<font color=green>*f*</font>的类型是<font color=green>*(Object, Object)  → int*</font>（这里→意思是返回）， 而<font color=green>*compare*</font>的类型是Function。如果更改代码以使用显式命名并且保留类型信息，开发者和工具就可以使用这些信息了。
+
+```dart
+typedef Compare = int Function(Object a, Object b);
+
+class SortedCollection {
+  Compare compare;
+
+  SortedCollection(this.compare);
+}
+
+// Initial, broken implementation.
+int sort(Object a, Object b) => 0;
+
+void main() {
+  SortedCollection coll = SortedCollection(sort);
+  assert(coll.compare is Function);
+  assert(coll.compare is Compare);
+}
+```
+
+> 注：当前typedef仅限用于函数，我们期待后面有所改变。
+
+<br>
+
+因为typedef只是简单的别名，它提供了一种检查任何函数类型的方法。比如：
+
+```dart
+typedef Compare<T> = int Function(T a, T b);
+
+int sort(int a, int b) => a - b;
+
+void main() {
+  assert(sort is Compare<int>); // True!
+}
+```
+
+<br>
+
+### Metadata
+
+可以使用metadata为你的代码添加附加信息。一个metadata注解以<font color=green>*@*</font>开头，后面跟着对编译时常量的引用（比如<font color=green>*deprecated*</font>），或者对常量构造函数的调用。
+
+两个对所有Dart代码有效的注解：<font color=green>*@deprecated*</font>和<font color=green>*@override*</font>。比如**[Extending a class](https://dart.dev/guides/language/language-tour#extending-a-class)**章节中对<font color=green>*@override*</font>的使用，下面是使用<font color=green>*@deprecated*</font>注解的例子：
+
+```dart
+class Television {
+  /// _Deprecated: Use [turnOn] instead._
+  @deprecated
+  void activate() {
+    turnOn();
+  }
+
+  /// Turns the TV's power on.
+  void turnOn() {...}
+}
+```
+
+你可以定义自己的metadata注解，下面是一个带有两个参数的自定义注解@todo的例子：
+
+```dart
+library todo;
+
+class Todo {
+  final String who;
+  final String what;
+
+  const Todo(this.who, this.what);
+}
+```
+
+这是使用@todo注解的例子：
+
+```dart
+import 'todo.dart';
+
+@Todo('seth', 'make this do something')
+void doSomething() {
+  print('do something');
+}
+```
+
+metadata可以放在库、类、typedef、类型参数、构造函数、factory、函数、字段、参数或者变量声明之前，也可以放在import和export指令之前。可以通过反射在运行时提取metadata信息。
+
+<br>
+
+### Comments 注释
+
+Dart支持单行注释、多行注释，以及文档式注释。
+
+#### 单行注释
+
+单行注释以<font color=green>*//*</font>开头，自<font color=green>*//*</font>起到行末的所有字符都会被Dart编译器略掉。
+
+```dart
+void main() {
+  // TODO: refactor into an AbstractLlamaGreetingFactory?
+  print('Welcome to my Llama farm!');
+}
+```
+
+<br>
+
+#### 多行注释
+
+多行注释以<font color=green>*/\**</font>开头，以<font color=green>*\*/*</font>结尾，这之间的字符都会被Dart编译器略掉（除非是文档式注释，具体看下一章节）。多行注释支持嵌套。
+
+```dart
+void main() {
+  /*
+   * This is a lot of work. Consider raising chickens.
+
+  Llama larry = Llama();
+  larry.feed();
+  larry.exercise();
+  larry.clean();
+   */
+}
+```
+
+<br>
+
+#### 文档式注释
+
+文档式注释可以是单行，也可以是多行，以<font color=green>*///*</font>或者<font color=green>*/\*\**</font>开头。使用<font color=green>*///*</font>对连续行注释，与多行doc注释有相同的效果。
+
+在文档式注释中，Dart编译器会忽略掉所有文本，除非它被括在方括号中。使用方括号可以引用类、方法、字段、全局变量、函数以及参数。方括号中的名字会在文档化程序元素的词法范围内做解析。
+
+下面这个文档化注释的例子引用了另外的类和参数：
+
+```dart
+/// A domesticated South American camelid (Lama glama).
+///
+/// Andean cultures have used llamas as meat and pack
+/// animals since pre-Hispanic times.
+class Llama {
+  String name;
+
+  /// Feeds your llama [Food].
+  ///
+  /// The typical llama eats one bale of hay per week.
+  void feed(Food food) {
+    // ...
+  }
+
+  /// Exercises your llama with an [activity] for
+  /// [timeLimit] minutes.
+  void exercise(Activity activity, int timeLimit) {
+    // ...
+  }
+}
+```
+
+在生成的文档中，<font color=green>*[food]*</font>会转换为一个链接，指向Food类的API文档。
+
+如果要解析Dart代码，生成HTML文档，可以使用SDK中的**[documentation generation tool](https://github.com/dart-lang/dartdoc#dartdoc)**。具体生成文档的例子可以参考**[Dart API documentation](https://api.dart.dev/stable)**。关于如何结构化注释的建议，可以参考**[Guidelines for Dart Doc Comments](https://dart.dev/guides/language/effective-dart/documentation)**。
+
+<br>
+
+### 总结
+
+这篇文章总结了Dart语言中常用的特性，更多的新特性还在实现中，但我们希望新特性不会破坏现有的代码。更多内容可以参考**[Dart language specification](https://dart.dev/guides/language/spec)**和**[Effective Dart](https://dart.dev/guides/language/effective-dart)**。想要了解Dart核心库，可以参考**[A Tour of the Dart Libraries](https://dart.dev/guides/libraries/library-tour)**。
