@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-01-13T10:12:14.719Z</updated>
+  <updated>2020-01-21T03:39:25.102Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -17,11 +17,88 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>软件设计的哲学</title>
+    <link href="http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/"/>
+    <id>http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/</id>
+    <published>2020-01-21T03:26:13.000Z</published>
+    <updated>2020-01-21T03:39:25.102Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;简介 Introduction&lt;/p&gt;
+&lt;p&gt;1.1 如何使用这本书 How to use this book&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;复杂性的特点 The Nature of Complexity&lt;/p&gt;
+&lt;p&gt;2.1 复杂性的定义 Complexity defined&lt;/p&gt;
+&lt;p&gt;2.2 复杂性的表现 Symptoms of complexity&lt;/p&gt;
+&lt;p&gt;2.3 复杂性的原因 Causes of complexity&lt;/p&gt;
+&lt;p&gt;2.4 复杂性的递增性 Complexity is incremental&lt;/p&gt;
+&lt;p&gt;2.5 结论 Conclusion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;只是能运行的代码是不够的 Working Code Isn’t Enough&lt;/p&gt;
+&lt;p&gt;3.1 战术性编程 Tactical programming&lt;/p&gt;
+&lt;p&gt;3.2 战略性编程 Strategy programming &lt;/p&gt;
+&lt;p&gt;3.3 投资多少？How much to invest?&lt;/p&gt;
+&lt;p&gt;3.4 创业和投资 Startups and investment&lt;/p&gt;
+&lt;p&gt;3.5 结论 Conclusion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;模块应该是深的 Modules Should Be Deep&lt;/p&gt;
+&lt;p&gt;4.1 模块化设计 Modular design&lt;/p&gt;
+&lt;p&gt;4.2 接口里有什么 What’s in an interface?&lt;/p&gt;
+&lt;p&gt;4.3 抽象 Abstractions&lt;/p&gt;
+&lt;p&gt;4.4 深层模块 Deep Modules&lt;/p&gt;
+&lt;p&gt;4.5 浅层模块 Shallow Modules&lt;/p&gt;
+&lt;p&gt;4.6 Classitis&lt;/p&gt;
+&lt;p&gt;4.7 例子：Java和Unix I/O  Example: Java and Unix I/O&lt;/p&gt;
+&lt;p&gt;4.8 结论 Conclusion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;信息隐藏和泄露 Information Hiding (and Leakage)&lt;/p&gt;
+&lt;p&gt;5.1 信息隐藏 Information hiding&lt;/p&gt;
+&lt;p&gt;5.2 信息泄露 Information leakage&lt;/p&gt;
+&lt;p&gt;5.3 时间分解 Temporal decomposition&lt;/p&gt;
+&lt;p&gt;5.4 例子：HTTP服务器 Example: HTTP server&lt;/p&gt;
+&lt;p&gt;5.5 例子：太多的类 Example: too many classes&lt;/p&gt;
+&lt;p&gt;5.6 例子：HTTP参数处理 Example: HTTP parameter handling&lt;/p&gt;
+&lt;p&gt;5.7 例子：HTTP响应中的缺省值 Example: defaults in HTTP response&lt;/p&gt;
+&lt;p&gt;5.8 类中的信息隐藏 Information hiding within a class&lt;/p&gt;
+&lt;p&gt;5.9 太过分了 Taking it too far&lt;/p&gt;
+&lt;p&gt;5.10 结论 Conclusion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;通用模块更深入 General-Purpose Modules are Deeper&lt;/p&gt;
+&lt;p&gt;6.1 让类具有一定的通用性 Make classes somewhat general-purpose&lt;/p&gt;
+&lt;p&gt;6.2 例子：为编辑器存储文本 Example: storing text for an editor&lt;/p&gt;
+&lt;p&gt;6.3 更通用的API A more general-purpose API&lt;/p&gt;
+&lt;p&gt;6.4 通用性带来更好的信息隐藏 Generality leads to better information hiding&lt;/p&gt;
+&lt;p&gt;6.5 问自己的一些问题 Questions to ask yourself&lt;/p&gt;
+&lt;p&gt;6.6 结论 Conclusion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不同的层，不同的抽象 Different Layer, Different Abstraction&lt;/p&gt;
+&lt;p&gt;7.1 透传方法 Pass-through methods&lt;/p&gt;
+&lt;p&gt;7.2 什么时候接口复制是可以的？ When is interface duplication OK?&lt;/p&gt;
+&lt;p&gt;7.3 修饰符 Decorators&lt;/p&gt;
+&lt;p&gt;7.4 接口 vs 实现  Interface versus implementation&lt;/p&gt;
+&lt;p&gt;7.5 透传变量 Pass-through variables&lt;/p&gt;
+&lt;p&gt;7.6 结论 Conclusion&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+    
+      <category term="编程艺术" scheme="http://nkduran.github.io/categories/%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF/"/>
+    
+    
+      <category term="软件设计" scheme="http://nkduran.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Dart语言之旅</title>
     <link href="http://nkduran.github.io/2020/01/11/dart-tour/"/>
     <id>http://nkduran.github.io/2020/01/11/dart-tour/</id>
     <published>2020-01-10T16:52:20.000Z</published>
-    <updated>2020-01-13T10:12:14.719Z</updated>
+    <updated>2020-01-21T03:31:59.781Z</updated>
     
     <summary type="html">
     
@@ -87,6 +164,8 @@
     </summary>
     
     
+      <category term="编程艺术" scheme="http://nkduran.github.io/categories/%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF/"/>
+    
     
       <category term="Dart" scheme="http://nkduran.github.io/tags/Dart/"/>
     
@@ -99,7 +178,7 @@
     <link href="http://nkduran.github.io/2020/01/11/infotainment/"/>
     <id>http://nkduran.github.io/2020/01/11/infotainment/</id>
     <published>2020-01-10T16:19:47.000Z</published>
-    <updated>2020-01-12T00:15:50.180Z</updated>
+    <updated>2020-01-21T03:32:30.200Z</updated>
     
     <summary type="html">
     
