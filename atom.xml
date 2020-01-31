@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-01-30T06:34:53.509Z</updated>
+  <updated>2020-01-31T13:12:05.361Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件设计的哲学（一）</title>
+    <link href="http://nkduran.github.io/2020/01/31/a-philosophy-of-software-design-preface/"/>
+    <id>http://nkduran.github.io/2020/01/31/a-philosophy-of-software-design-preface/</id>
+    <published>2020-01-31T12:41:48.000Z</published>
+    <updated>2020-01-31T13:12:05.361Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;翻译自&lt;a href=&quot;https://book.douban.com/subject/30218046/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《A Philosophy of Software
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="软件设计" scheme="http://nkduran.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>瑞宝趣事（二）</title>
