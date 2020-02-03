@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-01-31T13:12:05.361Z</updated>
+  <updated>2020-02-03T14:03:55.260Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -17,11 +17,62 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>软件设计的哲学（二）</title>
+    <link href="http://nkduran.github.io/2020/02/03/a-philosophy-of-software-design-c1/"/>
+    <id>http://nkduran.github.io/2020/02/03/a-philosophy-of-software-design-c1/</id>
+    <published>2020-02-03T12:29:21.000Z</published>
+    <updated>2020-02-03T14:03:55.260Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;翻译自&lt;a href=&quot;https://book.douban.com/subject/30218046/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《A Philosophy of Software
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="软件设计" scheme="http://nkduran.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>瑞宝趣事（三）</title>
+    <link href="http://nkduran.github.io/2020/02/02/ruibao3/"/>
+    <id>http://nkduran.github.io/2020/02/02/ruibao3/</id>
+    <published>2020-02-02T07:26:38.000Z</published>
+    <updated>2020-02-03T12:33:34.342Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;巴巴爸爸的颜色世界&quot;&gt;&lt;a href=&quot;#巴巴爸爸的颜色世界&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="童趣" scheme="http://nkduran.github.io/tags/%E7%AB%A5%E8%B6%A3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>软件设计的哲学（一）</title>
     <link href="http://nkduran.github.io/2020/01/31/a-philosophy-of-software-design-preface/"/>
     <id>http://nkduran.github.io/2020/01/31/a-philosophy-of-software-design-preface/</id>
     <published>2020-01-31T12:41:48.000Z</published>
-    <updated>2020-01-31T13:12:05.361Z</updated>
+    <updated>2020-02-03T12:28:43.055Z</updated>
     
     <summary type="html">
     
