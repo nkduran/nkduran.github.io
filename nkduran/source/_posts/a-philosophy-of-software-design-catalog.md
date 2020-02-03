@@ -8,7 +8,7 @@ categories: 编程艺术
 
 ### 目录
 
-1. 简介 Introduction
+1. [简介 Introduction](../../../../2020/02/03/a-philosophy-of-software-design-c1/index.html)
 
    1.1 如何使用这本书 How to use this book
 
