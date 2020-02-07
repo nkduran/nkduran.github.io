@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-02-07T20:01:41.560Z</updated>
+  <updated>2020-02-07T20:20:18.527Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -21,23 +21,18 @@
     <link href="http://nkduran.github.io/2020/02/08/a-philosophy-of-software-design-c2/"/>
     <id>http://nkduran.github.io/2020/02/08/a-philosophy-of-software-design-c2/</id>
     <published>2020-02-07T18:33:19.000Z</published>
-    <updated>2020-02-07T20:01:41.560Z</updated>
+    <updated>2020-02-07T20:20:18.527Z</updated>
     
     <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt;翻译自&lt;a href=&quot;https://book.douban.com/subject/30218046/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《A Philosophy of Software Design》&lt;/a&gt;，作者&lt;a href=&quot;https://en.wikipedia.org/wiki/John_Ousterhout&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;John Ousterhout&lt;/a&gt;，Tcl脚本语言和Tk工具库的发明人。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;第二章-复杂性的本质&quot;&gt;&lt;a href=&quot;#第二章-复杂性的本质&quot; class=&quot;headerlink&quot; title=&quot;第二章 复杂性的本质&quot;&gt;&lt;/a&gt;&lt;center&gt;第二章 复杂性的本质&lt;/center&gt;&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;本书讲的是有关如何设计软件系统使得复杂性最小化。那么第一步就是要了解敌人。确切地说“&lt;strong&gt;复杂性&lt;/strong&gt;”是什么？如何知道一个系统是否有不必要的复杂性？是什么让系统变得复杂？本章会从较高的层面讨论这些问题，随后的章节里会介绍如何依据具体的结构特征在细节层面上识别复杂性。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;识别复杂性的能力是一个重要的设计技能。它会让你在付出很多努力之前就能找出问题关键所在，并在各方案中做出明智的选择。判断一个设计是否简单要比创建一个简单的设计更容易。但是一旦你能够判断出系统过于复杂，你就可以用这种能力引导你的设计哲学走向简洁。如果一个设计表现地很复杂，可以试着采用不同的方法看看能不能变得更简单。久而久之，你会发现某些技术往往会导致更简单的设计，而其他技术则会带来复杂。这会让你更快地找到更简单的设计。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;另外，本章也会介绍一些基本假设，为后面的内容提供一个基础。后续章节会采用这些材料来证明各种改进和结论。&lt;/p&gt;
-&lt;h3 id=&quot;2-1-复杂性的定义&quot;&gt;&lt;a href=&quot;#2-1-复杂性的定义&quot; class=&quot;headerlink&quot; title=&quot;2.1 复杂性的定义&quot;&gt;&lt;/a&gt;2.1 复杂性的定义&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;出于本书的目的，我会采用一种实用的方式来定义“复杂性”。&lt;strong&gt;复杂性是指和软件系统的结构有关，并让系统难于理解和修改的任何事物&lt;/strong&gt;。复杂性可以有多种表现形式，比如它会让你很难搞清楚一段代码是如何工作的；它会让你花费巨大工作量才完成一小点改进；它让你搞不清楚要完成改进需要修改系统的哪些部分；它会让你很难在改bug的同时不引入新的bug。如果一个软件系统很难理解和修改，那它一定是复杂的；反之，如果很容易则它一定是简单的。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;另外你还可以根据成本和收益来看待复杂性。在一个复杂的系统中，即使要实现一个小的改进也要花费大量的工作。而在一个简单的系统中，花费更少的工作量就能实现更大的改进效果。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;复杂性是开发人员在试图达到一个特定的目标而在特定的时间点所体验到的感受。它不一定和系统的总体大小或者功能相关。人们经常用“complex”来描述包含复杂功能的大型系统，但是如果这样的系统很容易操作，那么根据本书的定义，它就不能说是complex的。当然，几乎所有复杂的大型软件系统实际上都能难操作，所以它们也算符合我对复杂性的定义，但事实未必一定如此。有可能一个简单的小型系统也会非常复杂。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;复杂性取决于软件里最常见的操作。如果系统中某些部分非常复杂，但这些部分几乎从不需要被处理，那么它们对系统整体的复杂性就不会有太大影响。用数学公式可以粗略的表示为：&lt;/p&gt;
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-C = \sum_{p}{c_pt_p}&lt;/script&gt;&lt;p&gt;&amp;emsp;&amp;emsp;系统总体复杂度C由每个部分p的复杂度 $(c_p)$与开发人员花在该部分上的时间$(t_p)$做加权求和所得。由此可见，把复杂性隔离在一个永远不会被看到的地方，几乎和完全消除复杂性的效果一样好。&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;复杂性相对于读代码的人来说比编写的人更明显。如果你写了一段代码，看起来很简单，但是其他人认为它很复杂，那么它就是复杂的。当你遇到这种状况的时候，值得去研究一下其他开发人员，找出为什么这些代码对他们来说很复杂。从你们之间观点的不一致中，你可能会学到一些有趣的经验。作为开发者，你的工作并不只是编写一段可以简单执行的代码，而是要创建一段代码，其他人也能够轻松使用它。&lt;/p&gt;
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;翻译自&lt;a href=&quot;https://book.douban.com/subject/30218046/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《A Philosophy of Software
+        
+      
     
     </summary>
     
