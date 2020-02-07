@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.2.0">
@@ -101,11 +101,11 @@
   </style>
 </noscript>
 
-<link rel="alternate" href="/atom.xml" title="点心盒子" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="点心盒子" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
     <div class="headband"></div>
 
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -284,7 +284,7 @@
 <p>&emsp;&emsp;这时候你可能很想知道：是什么让我自以为知道所有有关软件设计的答案？坦白的说，我也不知道。在我学习编程的时代还没有任何有关软件设计的课程，也没有任何一位导师教给过我有关设计的原则。而在那个时代，代码评审也基本不存在。我关于软件设计的所有想法都来自于我个人读写代码这样的实践经验。在我整个职业生涯中，我使用不同语言写了大概有250000行代码。我在很多团队工作过，这些团队曾经从头开始编写了三款操作系统，开发了多文件及存储系统、调试器这样的基础工具、编译系统、GUI工具包、一种脚本语言，用于文本、绘图和演示的交互式编辑器以及集成电路等等。这样一路走来，我亲身体验了开发大型系统所遇到的各类问题，并尝试了各种设计技术。此外，我读过其他人写的相当多的代码，让我接触到了各种各样的方法，有好的也有坏的。</p>
 <p>&emsp;&emsp;通过这些经验，我试着找出了一些通用的线索，既包括了要避免的错误，也包括了要使用的技术。这本书就是有关我经验的总结：其中每个描述的问题我个人都曾经历过，每个推荐的技术也都是曾经在我自己的代码中成功应用过的。</p>
 <p>&emsp;&emsp;我并不期望这本书能给出软件设计的最终答案。我确信我错过了一些有价值的技术，而从长远来看，我的一些建议可能会变成糟糕的主意。然而，我希望本书可以引发一场关于软件设计的讨论。我建议把书里的想法和你自己的经验做比较，你自己来判断这里描述的方法是否真的降低了软件复杂性。这本书里阐述了很多我个人的观点，可能有的读者会反对我的一些建议。如果你不同意它，就试着去理解它。我感兴趣的是那些对你有用的或者没用的东西，以及你对软件设计的其他任何想法。我希望后续的讨论会改进我们对软件设计的整体理解。我会把讨论中学到的新东西写进这本书的未来版本里。</p>
-<p>&emsp;&emsp;和我沟通这本书的最好方式是发邮件到以下地址：<strong><em><a href="mailto:software-design-book@googlegroups.com">software-design-book@googlegroups.com</a></em></strong>。我很想听听针对这本书的具体反馈，像问题或者改进建议一类的，还有和软件设计相关的一般想法和经验。另外我也很想看到一些非常令人信服的例子，能够加入到本书未来的版本中。最好的例子就是用一到两段话给出足够简单的解释，来阐明一个重要的设计原则。如果你想要看看其他人在邮件里说了什么，并想参与到讨论中，可以加入Google Group <strong><em>software-design-book</em></strong>。</p>
+<p>&emsp;&emsp;和我沟通这本书的最好方式是发邮件到以下地址：<strong><em>software-design-book@googlegroups.com</em></strong>。我很想听听针对这本书的具体反馈，像问题或者改进建议一类的，还有和软件设计相关的一般想法和经验。另外我也很想看到一些非常令人信服的例子，能够加入到本书未来的版本中。最好的例子就是用一到两段话给出足够简单的解释，来阐明一个重要的设计原则。如果你想要看看其他人在邮件里说了什么，并想参与到讨论中，可以加入Google Group <strong><em>software-design-book</em></strong>。</p>
 <p>&emsp;&emsp;如果未来因为某些原因Google Group <strong><em>software-design-book</em></strong> 不存在了，可以在网络上搜索我的个人主页。在主页上你可以找到关于本书如何交流的最新的指导信息。另外请不要发送和本书相关的邮件到我私人邮箱。</p>
 <p>&emsp;&emsp;我建议你用批判的态度来看待书里的内容。软件设计的最终目标是降低复杂性，这比你读过的任何特定的原则或者想法都重要。如果你尝试了书中的一些想法最后发现实际上并没有降低复杂性，就不要觉得有义务再继续使用它。（一定要让我知道你的这些经历，我希望得到反馈，了解哪些可行，哪些不可行）</p>
 <p>&emsp;&emsp;许多人提出了批评和建议，这些都有助于改进本书的质量。以下各位对本书的征求意见稿提出了有益的意见：Jeff Dean，Sanjay Ghemawat，John Hartman，Brian Kernighan，James Koppel，Amy Ousterhout，Kay Ousterhout，Rob Pike，Partha Ranganathan，Keith Schwartz和Alex Snaps。Christos Kozyrakis建议用术语“deep”和“shallow”来修饰类和接口，代替以前意义有些模糊的“thick”和“thin”。另外很感谢CS190课程上的学生们，通过阅读他们的代码并和他们进行讨论，帮助我更加明确了我有关设计的一些想法。</p>
@@ -425,7 +425,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -483,12 +483,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">66k</span>
+    <span title="站点总字数">71k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:01</span>
+    <span title="站点阅读时长">1:05</span>
 </div>
 
 
@@ -555,6 +555,56 @@
 
 
   
+
+  
+      
+<script type="text/x-mathjax-config">
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') {
+          next = next.nextSibling;
+        }
+        if (next && next.nodeName.toLowerCase() === 'br') {
+          next.parentNode.removeChild(next);
+        }
+      }
+    });
+  });
+
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
+      if (element.nodeName.toLowerCase() == 'li') {
+        element = element.parentNode;
+      }
+      element.classList.add('has-jax');
+    }
+  });
+</script>
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
+    MathJax.Hub.Typeset();
+  }, window.MathJax);
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+    
 
   
 

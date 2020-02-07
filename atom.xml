@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-02-03T14:03:55.260Z</updated>
+  <updated>2020-02-07T19:58:39.969Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件设计的哲学（三）</title>
+    <link href="http://nkduran.github.io/2020/02/08/a-philosophy-of-software-design-c2/"/>
+    <id>http://nkduran.github.io/2020/02/08/a-philosophy-of-software-design-c2/</id>
+    <published>2020-02-07T18:33:19.000Z</published>
+    <updated>2020-02-07T19:58:39.969Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;翻译自&lt;a href=&quot;https://book.douban.com/subject/30218046/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《A Philosophy of Software Design》&lt;/a&gt;，作者&lt;a href=&quot;https://en.wikipedia.org/wiki/John_Ousterhout&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;John Ousterhout&lt;/a&gt;，Tcl脚本语言和Tk工具库的发明人。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;第二章-复杂性的本质&quot;&gt;&lt;a href=&quot;#第二章-复杂性的本质&quot; class=&quot;headerlink&quot; title=&quot;第二章 复杂性的本质&quot;&gt;&lt;/a&gt;&lt;center&gt;第二章 复杂性的本质&lt;/center&gt;&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;本书讲的是有关如何设计软件系统使得复杂性最小化。那么第一步就是要了解敌人。确切地说“&lt;strong&gt;复杂性&lt;/strong&gt;”是什么？如何知道一个系统是否有不必要的复杂性？是什么让系统变得复杂？本章会从较高的层面讨论这些问题，随后的章节里会介绍如何依据具体的结构特征在细节层面上识别复杂性。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;识别复杂性的能力是一个重要的设计技能。它会让你在付出很多努力之前就能找出问题关键所在，并在各方案中做出明智的选择。判断一个设计是否简单要比创建一个简单的设计更容易。但是一旦你能够判断出系统过于复杂，你就可以用这种能力引导你的设计哲学走向简洁。如果一个设计表现地很复杂，可以试着采用不同的方法看看能不能变得更简单。久而久之，你会发现某些技术往往会导致更简单的设计，而其他技术则会带来复杂。这会让你更快地找到更简单的设计。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;另外，本章也会介绍一些基本假设，为后面的内容提供一个基础。后续章节会采用这些材料来证明各种改进和结论。&lt;/p&gt;
+&lt;h3 id=&quot;2-1-复杂性的定义&quot;&gt;&lt;a href=&quot;#2-1-复杂性的定义&quot; class=&quot;headerlink&quot; title=&quot;2.1 复杂性的定义&quot;&gt;&lt;/a&gt;2.1 复杂性的定义&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;出于本书的目的，我会采用一种实用的方式来定义“复杂性”。&lt;strong&gt;复杂性是指和软件系统的结构有关，并让系统难于理解和修改的任何事物&lt;/strong&gt;。复杂性可以有多种表现形式，比如它会让你很难搞清楚一段代码是如何工作的；它会让你花费巨大工作量才完成一小点改进；它让你搞不清楚要完成改进需要修改系统的哪些部分；它会让你很难在改bug的同时不引入新的bug。如果一个软件系统很难理解和修改，那它一定是复杂的；反之，如果很容易则它一定是简单的。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;另外你还可以根据成本和收益来看待复杂性。在一个复杂的系统中，即使要实现一个小的改进也要花费大量的工作。而在一个简单的系统中，花费更少的工作量就能实现更大的改进效果。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;复杂性是开发人员在试图达到一个特定的目标而在特定的时间点所体验到的感受。它不一定和系统的总体大小或者功能相关。人们经常用“complex”来描述包含复杂功能的大型系统，但是如果这样的系统很容易操作，那么根据本书的定义，它就不能说是complex的。当然，几乎所有复杂的大型软件系统实际上都能难操作，所以它们也算符合我对复杂性的定义，但事实未必一定如此。有可能一个简单的小型系统也会非常复杂。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;复杂性取决于软件里最常见的操作。如果系统中某些部分非常复杂，但这些部分几乎从不需要被处理，那么它们对系统整体的复杂性就不会有太大影响。用数学公式可以粗略的表示为：&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+C = \sum_{p}{c_pt_p}&lt;/script&gt;&lt;p&gt;&amp;emsp;&amp;emsp;系统总体复杂度C由每个部分p的复杂度 $(c_p)$与开发人员花在该部分上的时间$(t_p)$做加权求和所得。由此可见，把复杂性隔离在一个永远不会被看到的地方，几乎和完全消除复杂性的效果一样好。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;复杂性相对于读代码的人来说比编写的人更明显。如果你写了一段代码，看起来很简单，但是其他人认为它很复杂，那么它就是复杂的。当你遇到这种状况的时候，值得去研究一下其他开发人员，找出为什么这些代码对他们来说很复杂。从你们之间观点的不一致中，你可能会学到一些有趣的经验。作为开发者，你的工作并不只是编写一段可以简单执行的代码，而是要创建一段代码，其他人也能够轻松使用它。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="软件设计" scheme="http://nkduran.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>软件设计的哲学（二）</title>
@@ -148,7 +179,7 @@
     <link href="http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/"/>
     <id>http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/</id>
     <published>2020-01-21T03:26:13.000Z</published>
-    <updated>2020-02-03T14:13:56.522Z</updated>
+    <updated>2020-02-03T14:17:34.037Z</updated>
     
     <summary type="html">
     
@@ -230,42 +261,48 @@
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;&lt;font size=3&gt;该文章翻译自&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/language-tour#comments&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;A tour of the Dart language&lt;/a&gt;&lt;/strong&gt;，仅供学习参考。&lt;/font&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
+&lt;font size=&quot;3&quot;&gt;该文章翻译自**[A tour of the Dart language](https://dart.dev/guides/language/language-tour#comments)**，仅供学习参考。&lt;/font&gt;
 
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;这篇文章展示了Dart语言的主要特性，涉及的内容从变量、操作符直到类型和库，它假设读者已经了解了如何使用一种计算机语言进行编程。对于更简短的语言介绍可以参见&lt;strong&gt;&lt;a href=&quot;https://dart.dev/samples&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;语言示例&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;如果想要学习Dart核心库更多的内容，可以参见&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/libraries/library-tour&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;库介绍&lt;/a&gt;&lt;/strong&gt;。想要了解语言特性更多的细节，可以参考&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/spec&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dart语言规范&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;font size=2&gt; 注：对于Dart语言的大多数特性都可以使用DartPad来体验（&lt;strong&gt;&lt;a href=&quot;https://dartpad.dev/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DartPad&lt;/a&gt;&lt;/strong&gt;），这个页面使用嵌入式DartPad展示了一些范例，如果打开后是空页面，请访问 &lt;a href=&quot;https://dart.dev/tools/dartpad/troubleshoot&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DartPad troubleshooting page&lt;/a&gt; &lt;/font&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;br&gt;
+&lt;font size=&quot;2&quot;&gt; 注：对于Dart语言的大多数特性都可以使用DartPad来体验（**[DartPad](https://dartpad.dev/)**），这个页面使用嵌入式DartPad展示了一些范例，如果打开后是空页面，请访问 [DartPad troubleshooting page](https://dart.dev/tools/dartpad/troubleshoot) &lt;/font&gt;
 
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;一个基本的Dart程序&quot;&gt;&lt;a href=&quot;#一个基本的Dart程序&quot; class=&quot;headerlink&quot; title=&quot;一个基本的Dart程序&quot;&gt;&lt;/a&gt;一个基本的Dart程序&lt;/h3&gt;&lt;p&gt;下面的代码用到了Dart很多基本特性：&lt;/p&gt;
 &lt;figure class=&quot;highlight dart&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// Define a function.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;printInteger(&lt;span class=&quot;built_in&quot;&gt;int&lt;/span&gt; aNumber) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;print&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;The number is &lt;span class=&quot;subst&quot;&gt;$aNumber&lt;/span&gt;.&#39;&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// Print to console.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// This is where the app starts executing.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;main() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; number = &lt;span class=&quot;number&quot;&gt;42&lt;/span&gt;; &lt;span class=&quot;comment&quot;&gt;// Declare and initialize a variable.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  printInteger(number); &lt;span class=&quot;comment&quot;&gt;// Call a function.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
 &lt;p&gt;其中，几乎所有app都会涉及到的特性内容有以下几个方面：&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;//This is a comment.&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***//This is a comment.***&lt;/font&gt;
+
 &lt;p&gt;单行注释。另外Dart也支持多行注释和文档注释，关于细节可参考&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/language-tour#comments&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Comments&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;int&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;一种内建类型，其他&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/language-tour#built-in-types&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;内建类型&lt;/a&gt;&lt;/strong&gt;还包括&lt;font size=3&gt;&lt;strong&gt;&lt;em&gt;String，List&lt;em&gt;，&lt;/em&gt;bool&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;42&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***int***&lt;/font&gt;
+
+&lt;p&gt;一种内建类型，其他&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/language-tour#built-in-types&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;内建类型&lt;/a&gt;&lt;/strong&gt;还包括&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;&lt;em&gt;String，List&lt;/em&gt;，&lt;em&gt;bool&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***42***&lt;/font&gt;
+
 &lt;p&gt;一个数值字面量，数值字面量是一种编译时常量。&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;print()&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***print()***&lt;/font&gt;
+
 &lt;p&gt;一种输出到屏幕的简便方法。&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;‘…’ 或者 “…”&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***&#39;...&#39; 或者 &quot;...&quot;***&lt;/font&gt;
+
 &lt;p&gt;字符串字面量。&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;$variableName 或者 $(expression)&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***$variableName 或者 $(expression)***&lt;/font&gt;
+
 &lt;p&gt;字符串插值：可以在一个字符串字面量中插入一个字符串变量或者等价的字符串表达式。更多信息请参见&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/language-tour#strings&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Strings&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;main()&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***main()***&lt;/font&gt;
+
 &lt;p&gt;在应用执行时必需的一个特殊的全局函数。更多信息参见&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/language-tour#the-main-function&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;The main() function&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;font size=2&gt;&lt;strong&gt;&lt;em&gt;var&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;2&quot;&gt;***var***&lt;/font&gt;
+
 &lt;p&gt;一种不用指定类型声明变量的方式。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注：这篇文章中的代码遵循了&lt;strong&gt;&lt;a href=&quot;https://dart.dev/guides/language/effective-dart/style&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dart风格指南&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;br&gt;
-
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;重要概念&quot;&gt;&lt;a href=&quot;#重要概念&quot; class=&quot;headerlink&quot; title=&quot;重要概念&quot;&gt;&lt;/a&gt;重要概念&lt;/h3&gt;&lt;p&gt;在学习Dart语言时，以下的事实和概念需要牢记在心：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;赋给变量的任何值都是&lt;strong&gt;&lt;em&gt;对象&lt;/em&gt;&lt;/strong&gt;，而每个对象都是一个&lt;strong&gt;&lt;em&gt;class&lt;/em&gt;&lt;/strong&gt;的实例，甚至数字、函数以及null都是对象。所有的对象都继承自&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://api.dart.dev/stable/dart-core/Object-class.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Object&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;类。&lt;/p&gt;
@@ -314,7 +351,10 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;&lt;font size=3&gt;这里讨论的范围局限于infotainment终端产品。一年多之前的一些想法，看看未来几年能否得到验证。&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&quot;3&quot;&gt;这里讨论的范围局限于infotainment终端产品。一年多之前的一些想法，看看未来几年能否得到验证。&lt;/font&gt;
+
+
+
 &lt;/blockquote&gt;
 &lt;h4
         
