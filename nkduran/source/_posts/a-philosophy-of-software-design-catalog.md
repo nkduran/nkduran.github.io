@@ -24,7 +24,7 @@ categories: 编程艺术
 
    2.5 结论 Conclusion
 
-3. 只是能运行的代码是不够的 Working Code Isn't Enough
+3. 仅是能运行的代码是不够的 Working Code Isn't Enough
 
    3.1 战术性编程 Tactical programming
 
