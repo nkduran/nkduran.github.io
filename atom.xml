@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-02-07T20:23:54.795Z</updated>
+  <updated>2020-03-01T09:56:05.895Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>软件设计的哲学（四）</title>
+    <link href="http://nkduran.github.io/2020/03/01/a-philosophy-of-software-design-c3/"/>
+    <id>http://nkduran.github.io/2020/03/01/a-philosophy-of-software-design-c3/</id>
+    <published>2020-03-01T09:37:22.000Z</published>
+    <updated>2020-03-01T09:56:05.895Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt; 翻译自&lt;a href=&quot;https://book.douban.com/subject/30218046/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《A Philosophy of Software
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="软件设计" scheme="http://nkduran.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>软件设计的哲学（三）</title>
     <link href="http://nkduran.github.io/2020/02/08/a-philosophy-of-software-design-c2/"/>
     <id>http://nkduran.github.io/2020/02/08/a-philosophy-of-software-design-c2/</id>
     <published>2020-02-07T18:33:19.000Z</published>
-    <updated>2020-02-07T20:23:54.795Z</updated>
+    <updated>2020-02-08T08:27:08.909Z</updated>
     
     <summary type="html">
     
@@ -174,7 +200,7 @@
     <link href="http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/"/>
     <id>http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/</id>
     <published>2020-01-21T03:26:13.000Z</published>
-    <updated>2020-02-03T14:17:34.037Z</updated>
+    <updated>2020-02-18T01:48:50.492Z</updated>
     
     <summary type="html">
     
@@ -189,7 +215,7 @@
 &lt;p&gt;2.4 复杂性的递增性 Complexity is incremental&lt;/p&gt;
 &lt;p&gt;2.5 结论 Conclusion&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;只是能运行的代码是不够的 Working Code Isn’t Enough&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;仅是能运行的代码是不够的 Working Code Isn’t Enough&lt;/p&gt;
 &lt;p&gt;3.1 战术性编程 Tactical programming&lt;/p&gt;
 &lt;p&gt;3.2 战略性编程 Strategy programming &lt;/p&gt;
 &lt;p&gt;3.3 投资多少？How much to invest?&lt;/p&gt;
