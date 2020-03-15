@@ -45,16 +45,16 @@
   };
 </script>
 
-  <meta name="description" content="翻译自《A Philosophy of Software Design》，作者John Ousterhout，Tcl脚本语言和Tk工具库的发明人。  模块应该是深的&amp;emsp;&amp;emsp;管理软件复杂性最重要的技术之一，就是把系统设计成让开发人员在任何时候都只需要面对总体复杂性的一小部分。这个方法叫做模块化设计，本章会介绍相关的一些基本原则。 4.1 模块化设计&amp;emsp;&amp;emsp;在模块化设">
+  <meta name="description" content="翻译自《A Philosophy of Software Design》，作者John Ousterhout，Tcl脚本语言和Tk工具库的发明人。  第四章 模块应该是深的&amp;emsp;&amp;emsp;管理软件复杂性最重要的技术之一，就是把系统设计成让开发人员在任何时候都只需要面对总体复杂性的一小部分。这个方法叫做模块化设计，本章会介绍相关的一些基本原则。 4.1 模块化设计&amp;emsp;&amp;emsp;在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="软件设计的哲学（五）">
 <meta property="og:url" content="http://nkduran.github.io/2020/03/15/a-philosophy-of-software-design-c4/index.html">
 <meta property="og:site_name" content="点心盒子">
-<meta property="og:description" content="翻译自《A Philosophy of Software Design》，作者John Ousterhout，Tcl脚本语言和Tk工具库的发明人。  模块应该是深的&amp;emsp;&amp;emsp;管理软件复杂性最重要的技术之一，就是把系统设计成让开发人员在任何时候都只需要面对总体复杂性的一小部分。这个方法叫做模块化设计，本章会介绍相关的一些基本原则。 4.1 模块化设计&amp;emsp;&amp;emsp;在模块化设">
+<meta property="og:description" content="翻译自《A Philosophy of Software Design》，作者John Ousterhout，Tcl脚本语言和Tk工具库的发明人。  第四章 模块应该是深的&amp;emsp;&amp;emsp;管理软件复杂性最重要的技术之一，就是把系统设计成让开发人员在任何时候都只需要面对总体复杂性的一小部分。这个方法叫做模块化设计，本章会介绍相关的一些基本原则。 4.1 模块化设计&amp;emsp;&amp;emsp;在">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://nkduran.github.io/2020/03/15/a-philosophy-of-software-design-c4/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6f4.1.png">
 <meta property="article:published_time" content="2020-03-15T03:49:44.000Z">
-<meta property="article:modified_time" content="2020-03-15T03:54:54.596Z">
+<meta property="article:modified_time" content="2020-03-15T07:04:29.344Z">
 <meta property="article:author" content="Duran Du">
 <meta property="article:tag" content="软件设计">
 <meta name="twitter:card" content="summary">
@@ -236,7 +236,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-03-15 11:49:44 / 修改时间：11:54:54" itemprop="dateCreated datePublished" datetime="2020-03-15T11:49:44+08:00">2020-03-15</time>
+              <time title="创建时间：2020-03-15 11:49:44 / 修改时间：15:04:29" itemprop="dateCreated datePublished" datetime="2020-03-15T11:49:44+08:00">2020-03-15</time>
             </span>
 
           
@@ -272,7 +272,7 @@
         <blockquote>
 <p>翻译自<a href="https://book.douban.com/subject/30218046/" target="_blank" rel="noopener">《A Philosophy of Software Design》</a>，作者<a href="https://en.wikipedia.org/wiki/John_Ousterhout" target="_blank" rel="noopener">John Ousterhout</a>，Tcl脚本语言和Tk工具库的发明人。</p>
 </blockquote>
-<h2 id="模块应该是深的"><a href="#模块应该是深的" class="headerlink" title="模块应该是深的"></a><center>模块应该是深的</center></h2><p>&emsp;&emsp;管理软件复杂性最重要的技术之一，就是把系统设计成让开发人员在任何时候都只需要面对总体复杂性的一小部分。这个方法叫做<strong><em>模块化设计</em></strong>，本章会介绍相关的一些基本原则。</p>
+<h2 id="第四章-模块应该是深的"><a href="#第四章-模块应该是深的" class="headerlink" title="第四章 模块应该是深的"></a><center>第四章 模块应该是深的</center></h2><p>&emsp;&emsp;管理软件复杂性最重要的技术之一，就是把系统设计成让开发人员在任何时候都只需要面对总体复杂性的一小部分。这个方法叫做<strong><em>模块化设计</em></strong>，本章会介绍相关的一些基本原则。</p>
 <h3 id="4-1-模块化设计"><a href="#4-1-模块化设计" class="headerlink" title="4.1 模块化设计"></a>4.1 模块化设计</h3><p>&emsp;&emsp;在模块化设计中，软件系统会被分解为相对独立的一组模块。这里所说的模块可能有多种形式，比如class、子系统或者服务等。在理想世界中，每个模块都完全独立于其他模块，一个开发人员可以基于任何一个模块进行开发，而无需了解其他模块的任何内容。而在现实世界中，一个系统的复杂性是由其最差的（最复杂的）模块的复杂性所决定的。</p>
 <p>&emsp;&emsp;不幸地是，理想世界是可望不可即的。模块必须靠它们包含的函数和方法间的彼此调用才能协同运转，这就要求模块间必须了解彼此的相关信息才行。于是模块间就会产生依赖：如果修改了一个模块，那么其它模块也要做相应的修改。例如，方法的参数造成方法与调用方法的代码间产生依赖，如果方法所需的参数有改变，那么所有调用该方法的代码都必须修改，以保持和方法签名一致。依赖也有许多其他形式，可能会变得非常不明显。总之，模块化设计的目标就是为了将模块间的依赖最小化。</p>
 <p>&emsp;&emsp;为了管理依赖，我们把每个模块分为两个部分来考虑：<strong><em>接口</em></strong> 和 <strong><em>实现</em></strong>。接口包含了让工作在其他模块的开发人员使用该模块所必须了解的所有内容。一般来说，接口描述的是模块是什么，而不是它怎么做。而实现则包含了接口所承诺的功能执行代码。开发人员要想在一个特定模块上工作，必须了解该模块的接口和实现，以及被其调用的其他模块的接口。他不应该也不需要去了解他所工作模块之外其他模块的实现细节。</p>
@@ -319,7 +319,7 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">addNullValueForAttribute</span><span class="params">(String attribute)</span> </span>&#123;</span><br><span class="line">    data.put(attribute, <span class="keyword">null</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>从管理复杂度的立场看，这个方法只会让事情更糟，而不是更好。这个方法没有提供任何抽象，因为它的所有功能通过接口都是可见的。例如，调用方可能需要知道属性被存储在<em>data</em>变量中，而考虑接口并不比考虑实现更简单。如果该方法要被文档准确的描述，那么文档说明会比方法的代码还要长。调用该方法甚至比调用方直接操作数据变量所需的击键次数还要多。这种方法增加了复杂性（开发人员要学习新的接口）但没有提供任何补偿性的收益。</p>
 <blockquote>
-<center>📚<font color="red"><b>小红旗：浅模块</b></font>📚</center>
+<center>📚<font color="red"><b>危险信号：浅模块</b></font>📚</center>
 
 <p><strong><em>浅模块的接口相对于它提供的功能来说是复杂的，对管理复杂性帮助不大。因为它们所提供的收益（不需要了解它们内部如何工作）被学习和使用它们接口的成本所抵消了。小模块往往是浅的。</em></strong></p>
 </blockquote>
@@ -449,7 +449,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#模块应该是深的"><span class="nav-text">模块应该是深的</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-模块化设计"><span class="nav-text">4.1 模块化设计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-接口是什么"><span class="nav-text">4.2 接口是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-3-抽象"><span class="nav-text">4.3 抽象</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-4-深度模块（Deep-modules）"><span class="nav-text">4.4 深度模块（Deep modules）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-5-浅模块（Shallow-modules）"><span class="nav-text">4.5 浅模块（Shallow modules）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-6-Classitis"><span class="nav-text">4.6 Classitis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-7-例子：Java和Unix-I-O"><span class="nav-text">4.7 例子：Java和Unix I&#x2F;O</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-8-结论"><span class="nav-text">4.8 结论</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第四章-模块应该是深的"><span class="nav-text">第四章 模块应该是深的</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-模块化设计"><span class="nav-text">4.1 模块化设计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-接口是什么"><span class="nav-text">4.2 接口是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-3-抽象"><span class="nav-text">4.3 抽象</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-4-深度模块（Deep-modules）"><span class="nav-text">4.4 深度模块（Deep modules）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-5-浅模块（Shallow-modules）"><span class="nav-text">4.5 浅模块（Shallow modules）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-6-Classitis"><span class="nav-text">4.6 Classitis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-7-例子：Java和Unix-I-O"><span class="nav-text">4.7 例子：Java和Unix I&#x2F;O</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-8-结论"><span class="nav-text">4.8 结论</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
