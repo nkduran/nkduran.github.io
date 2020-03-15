@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-03-13T03:55:04.755Z</updated>
+  <updated>2020-03-15T03:54:54.596Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件设计的哲学（五）</title>
+    <link href="http://nkduran.github.io/2020/03/15/a-philosophy-of-software-design-c4/"/>
+    <id>http://nkduran.github.io/2020/03/15/a-philosophy-of-software-design-c4/</id>
+    <published>2020-03-15T03:49:44.000Z</published>
+    <updated>2020-03-15T03:54:54.596Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;翻译自&lt;a href=&quot;https://book.douban.com/subject/30218046/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《A Philosophy of Software
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="软件设计" scheme="http://nkduran.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>论父母的自我修养</title>

@@ -207,6 +207,161 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.png">
+      <meta itemprop="name" content="Duran Du">
+      <meta itemprop="description" content="白日放歌须纵酒，青春作伴好还乡。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="点心盒子">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/21/a-philosophy-of-software-design-catalog/" class="post-title-link" itemprop="url">软件设计的哲学</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-01-21 11:26:13" itemprop="dateCreated datePublished" datetime="2020-01-21T11:26:13+08:00">2020-01-21</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-02-18 09:48:50" itemprop="dateModified" datetime="2020-02-18T09:48:50+08:00">2020-02-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">编程艺术</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>4.4k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><ol>
+<li><p><a href="../../../../2020/02/03/a-philosophy-of-software-design-c1/index.html">简介 Introduction</a></p>
+<p>1.1 如何使用这本书 How to use this book</p>
+</li>
+<li><p>复杂性的特点 The Nature of Complexity</p>
+<p>2.1 复杂性的定义 Complexity defined</p>
+<p>2.2 复杂性的表现 Symptoms of complexity</p>
+<p>2.3 复杂性的原因 Causes of complexity</p>
+<p>2.4 复杂性的递增性 Complexity is incremental</p>
+<p>2.5 结论 Conclusion</p>
+</li>
+<li><p>仅是能运行的代码是不够的 Working Code Isn’t Enough</p>
+<p>3.1 战术性编程 Tactical programming</p>
+<p>3.2 战略性编程 Strategy programming </p>
+<p>3.3 投资多少？How much to invest?</p>
+<p>3.4 创业和投资 Startups and investment</p>
+<p>3.5 结论 Conclusion</p>
+</li>
+<li><p>模块应该是深的 Modules Should Be Deep</p>
+<p>4.1 模块化设计 Modular design</p>
+<p>4.2 接口里有什么 What’s in an interface?</p>
+<p>4.3 抽象 Abstractions</p>
+<p>4.4 深层模块 Deep Modules</p>
+<p>4.5 浅层模块 Shallow Modules</p>
+<p>4.6 Classitis</p>
+<p>4.7 例子：Java和Unix I/O  Example: Java and Unix I/O</p>
+<p>4.8 结论 Conclusion</p>
+</li>
+<li><p>信息隐藏和泄露 Information Hiding (and Leakage)</p>
+<p>5.1 信息隐藏 Information hiding</p>
+<p>5.2 信息泄露 Information leakage</p>
+<p>5.3 时间分解 Temporal decomposition</p>
+<p>5.4 例子：HTTP服务器 Example: HTTP server</p>
+<p>5.5 例子：太多的类 Example: too many classes</p>
+<p>5.6 例子：HTTP参数处理 Example: HTTP parameter handling</p>
+<p>5.7 例子：HTTP响应中的缺省值 Example: defaults in HTTP response</p>
+<p>5.8 类中的信息隐藏 Information hiding within a class</p>
+<p>5.9 太过分了 Taking it too far</p>
+<p>5.10 结论 Conclusion</p>
+</li>
+<li><p>通用模块更深入 General-Purpose Modules are Deeper</p>
+<p>6.1 让类具有一定的通用性 Make classes somewhat general-purpose</p>
+<p>6.2 例子：为编辑器存储文本 Example: storing text for an editor</p>
+<p>6.3 更通用的API A more general-purpose API</p>
+<p>6.4 通用性带来更好的信息隐藏 Generality leads to better information hiding</p>
+<p>6.5 问自己的一些问题 Questions to ask yourself</p>
+<p>6.6 结论 Conclusion</p>
+</li>
+<li><p>不同的层，不同的抽象 Different Layer, Different Abstraction</p>
+<p>7.1 透传方法 Pass-through methods</p>
+<p>7.2 什么时候接口复制是可以的？ When is interface duplication OK?</p>
+<p>7.3 修饰符 Decorators</p>
+<p>7.4 接口 vs 实现  Interface versus implementation</p>
+<p>7.5 透传变量 Pass-through variables</p>
+<p>7.6 结论 Conclusion</p>
+</li>
+</ol>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/01/21/a-philosophy-of-software-design-catalog/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://nkduran.github.io/2020/01/11/dart-tour/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -541,7 +696,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -599,12 +754,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">88k</span>
+    <span title="站点总字数">95k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:20</span>
+    <span title="站点阅读时长">1:26</span>
 </div>
 
 
