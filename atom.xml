@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-03-15T07:04:29.344Z</updated>
+  <updated>2020-03-19T03:08:37.371Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://nkduran.github.io/2020/03/15/a-philosophy-of-software-design-c4/"/>
     <id>http://nkduran.github.io/2020/03/15/a-philosophy-of-software-design-c4/</id>
     <published>2020-03-15T03:49:44.000Z</published>
-    <updated>2020-03-15T07:04:29.344Z</updated>
+    <updated>2020-03-19T03:08:37.371Z</updated>
     
     <summary type="html">
     
@@ -428,7 +428,7 @@
     <link href="http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/"/>
     <id>http://nkduran.github.io/2020/01/21/a-philosophy-of-software-design-catalog/</id>
     <published>2020-01-21T03:26:13.000Z</published>
-    <updated>2020-02-18T01:48:50.492Z</updated>
+    <updated>2020-03-17T02:42:30.709Z</updated>
     
     <summary type="html">
     
@@ -482,8 +482,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;不同的层，不同的抽象 Different Layer, Different Abstraction&lt;/p&gt;
 &lt;p&gt;7.1 透传方法 Pass-through methods&lt;/p&gt;
-&lt;p&gt;7.2 什么时候接口复制是可以的？ When is interface duplication OK?&lt;/p&gt;
-&lt;p&gt;7.3 修饰符 Decorators&lt;/p&gt;
+&lt;p&gt;7.2 什么时候接口重复是可以的？ When is interface duplication OK?&lt;/p&gt;
+&lt;p&gt;7.3 装饰器模式 Decorators&lt;/p&gt;
 &lt;p&gt;7.4 接口 vs 实现  Interface versus implementation&lt;/p&gt;
 &lt;p&gt;7.5 透传变量 Pass-through variables&lt;/p&gt;
 &lt;p&gt;7.6 结论 Conclusion&lt;/p&gt;
