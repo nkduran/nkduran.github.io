@@ -1,6 +1,442 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>书单</title>
+    <url>/2020/03/22/a-reading-list/</url>
+    <content><![CDATA[<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>书名</th>
+<th>出版信息</th>
+<th>豆瓣评分</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://book.douban.com/subject/1016953/" target="_blank" rel="noopener">宇宙的最初三分钟</a></td>
+<td>作者: <a href="https://book.douban.com/search/史蒂文.温伯格" target="_blank" rel="noopener">(美)史蒂文.温伯格</a> <br>出版社: 中国对外翻译出版公司<br>副标题: 关于宇宙起源的现代观点<br>原作名: The First Three Minutes<br>译者: <a href="https://book.douban.com/search/张承泉" target="_blank" rel="noopener">张承泉</a> <br>出版年: 2000-01<br>丛书: <a href="https://book.douban.com/series/293" target="_blank" rel="noopener">科学与人译丛</a><br>ISBN: 9787500105954</td>
+<td><font size="4"><strong>8.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1002966/" target="_blank" rel="noopener">宇宙的最后三分钟</a></td>
+<td>作者: <a href="https://book.douban.com/author/4510670/" target="_blank" rel="noopener">[英] 保罗·戴维斯</a> <br>出版社: 上海科学技术出版社<br>副标题: 关于宇宙归宿的最新观念<br>原作名: The Last Three Minutes<br>译者: <a href="https://book.douban.com/search/傅承启" target="_blank" rel="noopener">傅承启</a> <br>出版年: 1995<br>丛书: <a href="https://book.douban.com/series/580" target="_blank" rel="noopener">科学大师佳作系列</a><br>ISBN: 9787532336609</td>
+<td><font size="4"><strong>8.7</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1394364/" target="_blank" rel="noopener">银河系漫游指南</a></td>
+<td>作者: <a href="https://book.douban.com/author/301578/" target="_blank" rel="noopener">[英] 道格拉斯·亚当斯</a> <br>出版社: 四川科学技术出版社<br>出品方: <a href="https://book.douban.com/series/44027?brand=1" target="_blank" rel="noopener">科幻世界</a><br>原作名: The Hitchhiker’s Guide to the Galaxy<br>译者: <a href="https://book.douban.com/author/1023821/" target="_blank" rel="noopener">徐百柯</a> <br>出版年: 2005-6<br>丛书: <a href="https://book.douban.com/series/129" target="_blank" rel="noopener">世界科幻大师丛书</a><br>ISBN: 9787536457577</td>
+<td><font size="4"><strong>8.8</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1077196/" target="_blank" rel="noopener">蒙田随笔</a></td>
+<td>作者: <a href="https://book.douban.com/author/4510439/" target="_blank" rel="noopener">[法] 蒙田</a> <br>出版社: 译林出版社<br>译者: <a href="https://book.douban.com/search/潘丽珍 等" target="_blank" rel="noopener">潘丽珍 等</a> <br>出版年: 1996-12<br>ISBN: 9787805676340</td>
+<td><font size="4"><strong>8.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/10531723/" target="_blank" rel="noopener">爱因斯坦传</a></td>
+<td>作者: <a href="https://book.douban.com/author/197148" target="_blank" rel="noopener">[美] 沃尔特·艾萨克森</a> <br>出版社: 湖南科学技术出版社<br>原作名: Einstein: His Life and Universe<br>译者: <a href="https://book.douban.com/search/张卜天" target="_blank" rel="noopener">张卜天</a> <br>出版年: 2012-1-1<br>ISBN: 9787535770615</td>
+<td><font size="4"><strong>8.7</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/27139938/" target="_blank" rel="noopener">哲学·科学·常识</a></td>
+<td>作者: <a href="https://book.douban.com/search/陈嘉映" target="_blank" rel="noopener">陈嘉映</a> <br>出版社: 中信出版社·新思文化<br>出品方: <a href="https://book.douban.com/series/44653?brand=1" target="_blank" rel="noopener">新思文化</a><br>出版年: 2018-3<br>丛书: <a href="https://book.douban.com/series/47123" target="_blank" rel="noopener">边际新知</a><br>ISBN: 9787508671079</td>
+<td><font size="4"><strong>8.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26363926/" target="_blank" rel="noopener">何为良好生活</a></td>
+<td>作者: <a href="https://book.douban.com/search/陈嘉映" target="_blank" rel="noopener">陈嘉映</a> <br>出版社: 上海文艺出版社<br>出品方: <a href="https://book.douban.com/series/42816?brand=1" target="_blank" rel="noopener">艺文志eons</a><br>副标题: 行之于途而应于心<br>出版年: 2015-4<br>ISBN: 9787532156917</td>
+<td><font size="4"><strong>8.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1500045/" target="_blank" rel="noopener">猜想与反驳</a></td>
+<td>作者: <a href="https://book.douban.com/author/4503630/" target="_blank" rel="noopener">[英] 卡尔·波普尔</a> <br>出版社: 上海译文出版社<br>副标题: 科学知识的增长<br>原作名: Conjectures and Refutations<br>译者: <a href="https://book.douban.com/search/傅季重" target="_blank" rel="noopener">傅季重</a> / <a href="https://book.douban.com/search/纪树立" target="_blank" rel="noopener">纪树立</a> / <a href="https://book.douban.com/search/周昌忠" target="_blank" rel="noopener">周昌忠</a> / <a href="https://book.douban.com/search/蒋弋为" target="_blank" rel="noopener">蒋弋为</a> <br>出版年: 2005-9<br>丛书: <a href="https://book.douban.com/series/12" target="_blank" rel="noopener">二十世纪西方哲学译丛（新版）</a><br>ISBN: 9787532738106</td>
+<td><font size="4"><strong>8.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26285299/" target="_blank" rel="noopener">创造力：心流与创新心理学</a></td>
+<td>作者: <a href="https://book.douban.com/search/米哈里•希斯赞特米哈伊" target="_blank" rel="noopener">米哈里•希斯赞特米哈伊</a> <br>出版社: 浙江人民出版社<br>出品方: <a href="https://book.douban.com/series/39256?brand=1" target="_blank" rel="noopener">湛庐文化</a><br>副标题: 心流与创新心理学<br>原作名: Creativity: Flow and the Psychology of Discovery<br>译者: <a href="https://book.douban.com/search/黄珏苹" target="_blank" rel="noopener">黄珏苹</a> <br>出版年: 2015-1-1<br>ISBN: 9787213064128</td>
+<td><font size="4"><strong>7.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26895993/" target="_blank" rel="noopener">刻意练习</a></td>
+<td>作者: <a href="https://book.douban.com/search/安德斯·艾利克森" target="_blank" rel="noopener">[美] 安德斯·艾利克森（Anders Ericsson）</a> / <a href="https://book.douban.com/search/罗伯特·普尔" target="_blank" rel="noopener">罗伯特·普尔（Robert Pool）</a> <br>出版社: 机械工业出版社<br>出品方: <a href="https://book.douban.com/series/47143?brand=1" target="_blank" rel="noopener">华章心理</a><br>副标题: 如何从新手到大师<br>原作名: PEAK: Secrets from the New Science of Expertise<br>译者: <a href="https://book.douban.com/search/王正林" target="_blank" rel="noopener">王正林</a> <br>出版年: 2016-11-6<br>丛书: <a href="https://book.douban.com/series/35883" target="_blank" rel="noopener">学习典藏书系</a><br>ISBN: 9787111551287</td>
+<td><font size="4"><strong>7.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26585065/" target="_blank" rel="noopener">亲密关系</a></td>
+<td>作者: <a href="https://book.douban.com/author/447025" target="_blank" rel="noopener">[美] 罗兰·米勒</a> <br>出版社: 人民邮电出版社<br>副标题: （第6版）<br>原作名: Intimate Relationship<br>译者: <a href="https://book.douban.com/search/王伟平 译" target="_blank" rel="noopener">王伟平 译</a> / <a href="https://book.douban.com/search/彭凯平 校" target="_blank" rel="noopener">彭凯平 校</a> <br>出版年: 2015-6<br>装帧: 精装<br>丛书: <a href="https://book.douban.com/series/1089" target="_blank" rel="noopener">社会心理学精品译丛</a><br>ISBN: 9787115390578</td>
+<td><font size="4"><strong>9.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26431646/" target="_blank" rel="noopener">语言学的邀请</a></td>
+<td>作者: <a href="https://book.douban.com/search/塞缪尔·早川 Samuel Hayakawa" target="_blank" rel="noopener">塞缪尔·早川 Samuel Hayakawa</a> / <a href="https://book.douban.com/search/艾伦·早川 Alan Hayakawa" target="_blank" rel="noopener">艾伦·早川 Alan Hayakawa</a> <br>出版社: 北京大学出版社<br>原作名: Language in Thought and Action<br>译者: <a href="https://book.douban.com/search/柳之元" target="_blank" rel="noopener">柳之元</a> <br>出版年: 2015-7<br>丛书: <a href="https://book.douban.com/series/34073" target="_blank" rel="noopener">大学的邀请</a><br>ISBN: 9787301259702</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26304954/" target="_blank" rel="noopener">存在主义心理治疗</a></td>
+<td>作者: <a href="https://book.douban.com/search/亚隆" target="_blank" rel="noopener">(美) 亚隆</a> <br>出版社: 商务印书馆<br>译者: <a href="https://book.douban.com/search/黄峥" target="_blank" rel="noopener">黄峥</a> / <a href="https://book.douban.com/search/张怡玲" target="_blank" rel="noopener">张怡玲</a> / <a href="https://book.douban.com/search/沈东郁" target="_blank" rel="noopener">沈东郁</a> <br>出版年: 2015-5<br>丛书: <a href="https://book.douban.com/series/1604" target="_blank" rel="noopener">心理治疗译丛</a><br>ISBN: 9787100110457</td>
+<td><font size="4"><strong>9.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/5940553/" target="_blank" rel="noopener">当尼采哭泣</a></td>
+<td>作者: <a href="https://book.douban.com/search/欧文 D.亚隆" target="_blank" rel="noopener">（美）欧文 D.亚隆（Irvin D.Yalom）</a> <br>出版社: 机械工业出版社<br>译者: <a href="https://book.douban.com/search/侯维之" target="_blank" rel="noopener">侯维之</a> <br>出版年: 2011-1<br>丛书: <a href="https://book.douban.com/series/22892" target="_blank" rel="noopener">心理学大师</a><br>ISBN: 9787111328360</td>
+<td><font size="4"><strong>8.8</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/3261600/" target="_blank" rel="noopener">人生的智慧</a></td>
+<td>作者: <a href="https://book.douban.com/author/1041089" target="_blank" rel="noopener">[德] 阿图尔·叔本华</a> <br>出版社: 上海人民出版社<br>译者: <a href="https://book.douban.com/search/韦启昌" target="_blank" rel="noopener">韦启昌</a> <br>出版年: 2008-10<br>丛书: <a href="https://book.douban.com/series/19890" target="_blank" rel="noopener">叔本华系列</a><br>ISBN: 9787208081178</td>
+<td><font size="4"><strong>9.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1062193/" target="_blank" rel="noopener">娱乐至死</a></td>
+<td>作者: <a href="https://book.douban.com/author/4522294/" target="_blank" rel="noopener">[美] 尼尔·波兹曼</a> <br>出版社: 广西师范大学出版社<br>出品方: <a href="https://book.douban.com/series/39057?brand=1" target="_blank" rel="noopener">理想国</a><br>原作名: Amusing Ourselves to Death<br>译者: <a href="https://book.douban.com/search/章艳" target="_blank" rel="noopener">章艳</a> <br>出版年: 2011-6<br>丛书: <a href="https://book.douban.com/series/9757" target="_blank" rel="noopener">理想国 人文精选</a><br>ISBN: 9787563344970</td>
+<td><font size="4"><strong>8.5</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1005325/" target="_blank" rel="noopener">童年的消逝</a></td>
+<td>作者: <a href="https://book.douban.com/author/4522294/" target="_blank" rel="noopener">[美] 尼尔·波兹曼</a> <br>出版社: 广西师范大学出版社<br>出品方: <a href="https://book.douban.com/series/39057?brand=1" target="_blank" rel="noopener">理想国</a><br>原作名: The disappearance of childhood<br>译者: <a href="https://book.douban.com/search/吴燕莛" target="_blank" rel="noopener">吴燕莛</a> <br>出版年: 2011-6<br>丛书: <a href="https://book.douban.com/series/9757" target="_blank" rel="noopener">理想国 人文精选</a><br>ISBN: 9787563344987</td>
+<td><font size="4"><strong>8.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/2315287/" target="_blank" rel="noopener">技术垄断</a></td>
+<td>作者: <a href="https://book.douban.com/search/Neil Postman" target="_blank" rel="noopener">Neil Postman</a> <br>出版社: 北京大学出版社<br>副标题: 文化向技术投降<br>原作名: Technopoly: The Surrender of Culture to Technology<br>译者: <a href="https://book.douban.com/search/何道宽" target="_blank" rel="noopener">何道宽</a> <br>出版年: 2007-10<br>丛书: <a href="https://book.douban.com/series/4615" target="_blank" rel="noopener">媒介环境学译丛</a><br>ISBN: 9787301126813</td>
+<td><font size="4"><strong>8.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/25829693/" target="_blank" rel="noopener">永恒的终结</a></td>
+<td>作者: <a href="https://book.douban.com/search/艾萨克·阿西莫夫" target="_blank" rel="noopener">[美] 艾萨克·阿西莫夫</a> <br>出版社: 江苏凤凰文艺出版社<br>出品方: <a href="https://book.douban.com/series/39085?brand=1" target="_blank" rel="noopener">读客文化</a><br>副标题: 关于时间旅行的终极奥秘和恢宏构想<br>原作名: The End of Eternity<br>译者: <a href="https://book.douban.com/search/崔正男" target="_blank" rel="noopener">崔正男</a> <br>出版年: 2014-9-1<br>丛书: <a href="https://book.douban.com/series/26345" target="_blank" rel="noopener">读客全球顶级畅销小说文库：阿西莫夫作品</a><br>ISBN: 9787539957173</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26771878/" target="_blank" rel="noopener">中国通史</a></td>
+<td>作者: <a href="https://book.douban.com/search/吕思勉" target="_blank" rel="noopener">吕思勉</a> <br>出版社: 群言出版社<br>副标题: 民国以来畅销不衰的国史经典读本<br>出版年: 2016-2-1<br>ISBN: 9787519300203</td>
+<td><font size="4"><strong>9.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/27662713/" target="_blank" rel="noopener">舆论</a></td>
+<td>作者: <a href="https://book.douban.com/search/沃尔特·李普曼" target="_blank" rel="noopener">[美]沃尔特·李普曼</a> <br>出版社: 北京大学出版社<br>原作名: Public Opinion<br>译者: <a href="https://book.douban.com/search/常江" target="_blank" rel="noopener">常江</a> / <a href="https://book.douban.com/search/肖寒" target="_blank" rel="noopener">肖寒</a> <br>出版年: 2018-5-1<br>丛书: <a href="https://book.douban.com/series/5914" target="_blank" rel="noopener">未名社科·媒介与社会丛书：翻译版</a><br>ISBN: 9787301277997</td>
+<td><font size="4"><strong>9.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/3249247/" target="_blank" rel="noopener">高观点下的初等数学</a></td>
+<td>作者: <a href="https://book.douban.com/search/Felix Klein" target="_blank" rel="noopener">Felix Klein</a> <br>出版社: 复旦大学出版社<br>原作名: Elementary Mathematics from an Advanced Standpoint<br>译者: <a href="https://book.douban.com/search/舒湘芹" target="_blank" rel="noopener">舒湘芹</a> / <a href="https://book.douban.com/search/陈义章" target="_blank" rel="noopener">陈义章</a> <br>出版年: 2008-9<br>丛书: <a href="https://book.douban.com/series/224" target="_blank" rel="noopener">西方数学文化理念传播译丛</a><br>ISBN: 9787309059823</td>
+<td><font size="4"><strong>9.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1953795/" target="_blank" rel="noopener">高等近世代数</a></td>
+<td>作者: <a href="https://book.douban.com/search/Joseph J.Rotman" target="_blank" rel="noopener">[美]Joseph J.Rotman</a> <br>出版社: 机械工业出版社<br>原作名: Advanced Modern Algebra<br>出版年: 2007-1<br>丛书: <a href="https://book.douban.com/series/1914" target="_blank" rel="noopener">华章数学译丛</a><br>ISBN: 9787111191605</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1838127/" target="_blank" rel="noopener">数学分析</a></td>
+<td>作者: <a href="https://book.douban.com/search/B.A.卓里奇" target="_blank" rel="noopener">[俄]B.A.卓里奇</a> <br>出版社: 高等教育出版社<br>译者: <a href="https://book.douban.com/search/蒋铎" target="_blank" rel="noopener">蒋铎</a> / <a href="https://book.douban.com/search/王昆扬" target="_blank" rel="noopener">王昆扬</a> / <a href="https://book.douban.com/search/周美珂" target="_blank" rel="noopener">周美珂</a> / <a href="https://book.douban.com/search/邝荣雨" target="_blank" rel="noopener">邝荣雨</a> <br>出版年: 2006-6-1<br>丛书: <a href="https://book.douban.com/series/581" target="_blank" rel="noopener">俄罗斯数学教材选译系列</a><br>ISBN: 9787040183023</td>
+<td><font size="4"><strong>9.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1281343/" target="_blank" rel="noopener">微积分和数学分析引论</a></td>
+<td>作者: <a href="https://book.douban.com/search/Richard Courant" target="_blank" rel="noopener">Richard Courant</a> / <a href="https://book.douban.com/search/Fritz John" target="_blank" rel="noopener">Fritz John</a> <br>出版社: 科学出版社<br>原作名: Introduction to Calculus and Analysis<br>译者: <a href="https://book.douban.com/search/张鸿林" target="_blank" rel="noopener">张鸿林</a> / <a href="https://book.douban.com/search/周民强" target="_blank" rel="noopener">周民强</a> <br>出版年: 2005-2-1<br>丛书: <a href="https://book.douban.com/series/1189" target="_blank" rel="noopener">数学名著译丛</a><br>ISBN: 9787030084699</td>
+<td><font size="4"><strong>9.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/3533221/" target="_blank" rel="noopener">非暴力沟通</a></td>
+<td>作者: <a href="https://book.douban.com/author/246132/" target="_blank" rel="noopener">[美] 马歇尔·卢森堡</a> <br>出版社: 华夏出版社<br>原作名: Nonviolent Communication: A Language of Life<br>译者: <a href="https://book.douban.com/search/阮胤华" target="_blank" rel="noopener">阮胤华</a> <br>出版年: 2009-1<br>页数: 190<br>ISBN: 9787508051000</td>
+<td><font size="4"><strong>8.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/27184989/" target="_blank" rel="noopener">企鹅欧洲史·地狱之行</a></td>
+<td>作者: <a href="https://book.douban.com/search/伊恩·克肖" target="_blank" rel="noopener">[英]伊恩·克肖</a> <br>出版社: 中信出版集团·新思文化<br>出品方: <a href="https://book.douban.com/series/44653?brand=1" target="_blank" rel="noopener">新思文化</a><br>副标题: 1914-1949<br>译者: <a href="https://book.douban.com/search/林华" target="_blank" rel="noopener">林华</a> <br>出版年: 2018-12<br>丛书: <a href="https://book.douban.com/series/46889" target="_blank" rel="noopener">开放历史</a><br>ISBN: 9787508683003</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30362495/" target="_blank" rel="noopener">企鹅欧洲史·追逐荣耀</a></td>
+<td>作者: <a href="https://book.douban.com/search/蒂莫西·布莱宁" target="_blank" rel="noopener">[英]蒂莫西·布莱宁</a> <br>出版社: 中信出版集团·新思文化<br>出品方: <a href="https://book.douban.com/series/44653?brand=1" target="_blank" rel="noopener">新思文化</a><br>副标题: 1648-1815<br>原作名: The Pursuit of Glory: Europe 1648- 1815<br>译者: <a href="https://book.douban.com/search/吴畋" target="_blank" rel="noopener">吴畋</a> <br>出版年: 2018-12-20<br>丛书: <a href="https://book.douban.com/series/46889" target="_blank" rel="noopener">开放历史</a><br>ISBN: 9787508696867</td>
+<td><font size="4"><strong>8.7</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30244461/" target="_blank" rel="noopener">规模</a></td>
+<td>作者: <a href="https://book.douban.com/search/杰弗里·韦斯特" target="_blank" rel="noopener">杰弗里·韦斯特 (Geoffrey West)</a> <br>出版社: 中信出版社<br>副标题: 复杂世界的简单法则<br>原作名: Scale: The Universal Laws of Growth, Innovation, Sustainability, and the Pace of Life in Organisms, Cities, Economies, and Companies<br>译者: <a href="https://book.douban.com/search/张培" target="_blank" rel="noopener">张培</a> <br>出版年: 2018-6-1<br>页ISBN: 9787508687896</td>
+<td><font size="4"><strong>8.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/25752043/" target="_blank" rel="noopener">信息简史</a></td>
+<td>作者: <a href="https://book.douban.com/author/223800/" target="_blank" rel="noopener">[美] 詹姆斯·格雷克</a> <br>出版社: 人民邮电出版社<br>出品方: <a href="https://book.douban.com/series/47356?brand=1" target="_blank" rel="noopener">图灵教育</a><br>副标题: 一部历史 一个理论 一股洪流<br>原作名: The Information: A History, a Theory, a Flood<br>译者: <a href="https://book.douban.com/search/高博" target="_blank" rel="noopener">高博</a> <br>出版年: 2013-10<br>丛书: <a href="https://book.douban.com/series/4087" target="_blank" rel="noopener">图灵新知</a><br>ISBN: 9787115331809</td>
+<td><font size="4"><strong>8.7</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/27168433/" target="_blank" rel="noopener">基因传</a></td>
+<td>作者: <a href="https://book.douban.com/author/2048115/" target="_blank" rel="noopener">[美] 悉达多·穆克吉</a> <br>出版社: 中信出版社<br>出品方: <a href="https://book.douban.com/series/45420?brand=1" target="_blank" rel="noopener">见识城邦</a><br>副标题: 众生之源<br>原作名: The Gene: An Intimate History<br>译者: <a href="https://book.douban.com/search/马向涛" target="_blank" rel="noopener">马向涛</a> <br>出版年: 2018-1<br>ISBN: 9787508682426</td>
+<td><font size="4"><strong>8.7</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/20507206/" target="_blank" rel="noopener">众病之王</a></td>
+<td>作者: <a href="https://book.douban.com/author/2048115" target="_blank" rel="noopener">[美] 悉达多·穆克吉</a> <br>出版社: 中信出版社<br>副标题: 癌症传<br>原作名: The Emperor of All Maladies: A Biography of Cancer<br>译者: <a href="https://book.douban.com/search/李虎" target="_blank" rel="noopener">李虎</a> <br>出版年: 2013-2-4<br>ISBN: 9787508638119</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26641665/" target="_blank" rel="noopener">切诺尔贝利的悲鸣</a></td>
+<td>作者: <a href="https://book.douban.com/author/458049" target="_blank" rel="noopener">[白俄] S·A·阿列克谢耶维奇</a> <br>出版社: 花城出版社<br>出品方: <a href="https://book.douban.com/series/42779?brand=1" target="_blank" rel="noopener">磨铁·铁葫芦</a><br>原作名: VOICES FROM CHERNOBYL<br>译者: <a href="https://book.douban.com/search/方祖芳" target="_blank" rel="noopener">方祖芳</a> / <a href="https://book.douban.com/search/郭成业" target="_blank" rel="noopener">郭成业</a> <br>出版年: 2015-11<br>丛书: <a href="https://book.douban.com/series/31985" target="_blank" rel="noopener">S.A.阿列克谢耶维奇作品集</a><br>ISBN: 9787536076860</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1003692/" target="_blank" rel="noopener">真实世界的脉络</a></td>
+<td>作者: <a href="https://book.douban.com/author/4512979/" target="_blank" rel="noopener">[英] 戴维·多伊奇</a> <br>出版社: 广西师范大学出版社<br>译者: <a href="https://book.douban.com/search/梁焰" target="_blank" rel="noopener">梁焰</a> / <a href="https://book.douban.com/search/黄雄" target="_blank" rel="noopener">黄雄</a> <br>出版年: 2002-8<br>丛书: <a href="https://book.douban.com/series/7498" target="_blank" rel="noopener">雅典娜思想译丛</a><br>ISBN: 9787563335879</td>
+<td><font size="4"><strong>8.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26184242/" target="_blank" rel="noopener">无穷的开始</a></td>
+<td>作者: <a href="https://book.douban.com/author/4512979/" target="_blank" rel="noopener">[英] 戴维·多伊奇</a> <br>出版社: 人民邮电出版社<br>副标题: 世界进步的本源<br>原作名: The Beginning of Infinity: Explanations That Transform the World<br>译者: <a href="https://book.douban.com/search/王艳红" target="_blank" rel="noopener">王艳红</a> / <a href="https://book.douban.com/search/张韵" target="_blank" rel="noopener">张韵</a> <br>出版年: 2014-11<br>丛书: <a href="https://book.douban.com/series/20264" target="_blank" rel="noopener">科学新经典文丛</a><br>ISBN: 9787115365385</td>
+<td><font size="4"><strong>8.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/6749832/" target="_blank" rel="noopener">复杂</a></td>
+<td>作者: <a href="https://book.douban.com/author/2349444/" target="_blank" rel="noopener">梅拉妮·米歇尔</a> <br>出版社: 湖南科学技术出版社<br>原作名: Complexity: A Guided Tour<br>译者: <a href="https://book.douban.com/search/唐璐" target="_blank" rel="noopener">唐璐</a> <br>出版年: 2011-8-1<br>丛书: <a href="https://book.douban.com/series/1700" target="_blank" rel="noopener">第一推动丛书</a><br>ISBN: 9787535767134</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/3144300/" target="_blank" rel="noopener">通向实在之路</a></td>
+<td>作者: <a href="https://book.douban.com/author/311284/" target="_blank" rel="noopener">[英] 罗杰·彭罗斯</a> <br>出版社: 湖南科学技术出版社<br>副标题: 宇宙法则的完全指南<br>原作名: The Road to Reality: A Complete Guide to the Laws of the Universe<br>译者: <a href="https://book.douban.com/search/王文浩" target="_blank" rel="noopener">王文浩</a> <br>出版年: 2008-6<br>ISBN: 9787535752468</td>
+<td><font size="4"><strong>9.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30437166/" target="_blank" rel="noopener">饮食的迷思</a></td>
+<td>作者: <a href="https://book.douban.com/search/蒂姆·斯佩克特" target="_blank" rel="noopener">[英] 蒂姆·斯佩克特</a> <br>出版社: 广西师范大学出版社<br>出品方: <a href="https://book.douban.com/series/39057?brand=1" target="_blank" rel="noopener">理想国</a><br>副标题: 关于营养、健康和遗传的科学真相<br>原作名: The Diet Myth: The Real Science Behind What We Eat<br>译者: <a href="https://book.douban.com/search/李超群" target="_blank" rel="noopener">李超群</a> <br>出版年: 2019-3<br>ISBN: 9787559813442</td>
+<td><font size="4"><strong>8.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30157798/" target="_blank" rel="noopener">健身营养全书</a></td>
+<td>作者: <a href="https://book.douban.com/search/克里斯蒂安·冯·勒费尔霍尔茨" target="_blank" rel="noopener">克里斯蒂安·冯·勒费尔霍尔茨</a> <br>出版社: 北京科学技术出版社<br>副标题: 关于力量与肌肉的营养策略<br>译者: <a href="https://book.douban.com/search/庄仲华" target="_blank" rel="noopener">庄仲华</a> <br>出版年: 2018-4-1<br>ISBN: 9787530493885</td>
+<td><font size="4"><strong>9.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30379527/" target="_blank" rel="noopener">世界观</a></td>
+<td>作者: <a href="https://book.douban.com/search/理查德·德威特" target="_blank" rel="noopener">[美]理查德·德威特</a> <br>出版社: 机械工业出版社<br>副标题: 现代人必须要懂的科学哲学和科学史<br>原作名: Worldviews: An Introduction to the History and Philosophy of Science<br>译者: <a href="https://book.douban.com/search/孙天" target="_blank" rel="noopener">孙天</a> <br>出版年: 2018-11-15<br>ISBN: 9787111612100</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/25900948/" target="_blank" rel="noopener">消费社会</a></td>
+<td>作者: <a href="https://book.douban.com/author/108281/" target="_blank" rel="noopener">[法] 让·鲍德里亚</a> <br>出版社: 南京大学出版社<br>译者: <a href="https://book.douban.com/search/刘成富" target="_blank" rel="noopener">刘成富</a> / <a href="https://book.douban.com/search/全志钢" target="_blank" rel="noopener">全志钢</a> <br>出版年: 2014-10-1<br>丛书: <a href="https://book.douban.com/series/187" target="_blank" rel="noopener">当代学术棱镜译丛</a><br>ISBN: 9787305133039</td>
+<td><font size="4"><strong>8.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/10575163/" target="_blank" rel="noopener">象征交换与死亡</a></td>
+<td>作者: <a href="https://book.douban.com/search/让·波德里亚" target="_blank" rel="noopener">[法] 让·波德里亚</a> / <a href="https://book.douban.com/search/Jean Baudrillard" target="_blank" rel="noopener">Jean Baudrillard</a> <br>出版社: 译林出版社<br>原作名: L’échange symbolique et la mort<br>译者: <a href="https://book.douban.com/search/车槿山" target="_blank" rel="noopener">车槿山</a> <br>出版年: 2012-6<br>丛书: <a href="https://book.douban.com/series/13" target="_blank" rel="noopener">人文与社会译丛</a><br>ISBN: 9787544727020</td>
+<td><font size="4"><strong>9.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26865819/" target="_blank" rel="noopener">景观社会</a></td>
+<td>作者: <a href="https://book.douban.com/search/居伊·德波" target="_blank" rel="noopener">[法] 居伊·德波</a> <br>出版社: 南京大学出版社<br>原作名: La Société du Spectacle<br>译者: <a href="https://book.douban.com/search/张新木" target="_blank" rel="noopener">张新木</a> <br>出版年: 2017-5<br>丛书: <a href="https://book.douban.com/series/187" target="_blank" rel="noopener">当代学术棱镜译丛</a><br>ISBN: 9787305175299</td>
+<td><font size="4"><strong>8.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/25924311/" target="_blank" rel="noopener">盲眼钟表匠</a></td>
+<td>作者: <a href="https://book.douban.com/author/225672/" target="_blank" rel="noopener">[英] 理查德·道金斯</a> <br>出版社: 中信出版社<br>译者: <a href="https://book.douban.com/search/王道还" target="_blank" rel="noopener">王道还</a> <br>出版年: 2014-8-1<br>&gt;丛书: <a href="https://book.douban.com/series/33659" target="_blank" rel="noopener">道金斯作品</a><br>ISBN: 9787508645957</td>
+<td><font size="4"><strong>8.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/11445548/" target="_blank" rel="noopener">自私的基因</a></td>
+<td>作者: <a href="https://book.douban.com/author/225672/" target="_blank" rel="noopener">[英] 理查德·道金斯</a> <br>出版社: 中信出版社<br>出品方: <a href="https://book.douban.com/series/45420?brand=1" target="_blank" rel="noopener">见识城邦</a><br>原作名: The Selfish Gene<br>译者: <a href="https://book.douban.com/search/卢允中" target="_blank" rel="noopener">卢允中</a> / <a href="https://book.douban.com/search/张岱云" target="_blank" rel="noopener">张岱云</a> / <a href="https://book.douban.com/search/陈复加" target="_blank" rel="noopener">陈复加</a> / <a href="https://book.douban.com/search/罗小舟" target="_blank" rel="noopener">罗小舟</a> <br>出版年: 2012-9<br>丛书: <a href="https://book.douban.com/series/33659" target="_blank" rel="noopener">道金斯作品</a><br>ISBN: 9787508634159</td>
+<td><font size="4"><strong>8.5</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/20507207/" target="_blank" rel="noopener">地球上最伟大的表演</a></td>
+<td>作者: <a href="https://book.douban.com/author/225672/" target="_blank" rel="noopener">[英] 理查德·道金斯</a> <br>出版社: 中信出版社<br>副标题: 进化的证据<br>原作名: The Greatest Show on Earth<br>译者: <a href="https://book.douban.com/search/李虎" target="_blank" rel="noopener">李虎</a> / <a href="https://book.douban.com/search/徐双悦" target="_blank" rel="noopener">徐双悦</a> <br>出版年: 2013-3-2<br>丛书: <a href="https://book.douban.com/series/33659" target="_blank" rel="noopener">道金斯作品</a><br>ISBN: 9787508637983</td>
+<td><font size="4"><strong>8.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/27596897/" target="_blank" rel="noopener">演化的故事</a></td>
+<td>作者: <a href="https://book.douban.com/search/卡尔·齐默" target="_blank" rel="noopener">[美]卡尔·齐默</a> <br>出品方: <a href="https://book.douban.com/series/39071?brand=1" target="_blank" rel="noopener">世纪文景</a><br>出版社: 世纪文景<br>副标题: 40亿年生命之旅<br>原作名: Evolution：the triumph of an idea<br>译者: <a href="https://book.douban.com/search/唐嘉慧" target="_blank" rel="noopener">唐嘉慧</a><br>出版年: 2018-1-17<br>ISBN: 9787208148710</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26679862/" target="_blank" rel="noopener">生命的跃升</a></td>
+<td>作者: <a href="https://book.douban.com/author/4608823" target="_blank" rel="noopener">[英] 尼克·莱恩</a> <br>出版社: 科学出版社有限责任公司<br>副标题: 40亿年演化史上的十大发明<br>原作名: Life Ascending: The Ten Great Inventions of Evolution<br>译者: <a href="https://book.douban.com/search/张博然" target="_blank" rel="noopener">张博然</a> <br>出版年: 2016-5-27<br>丛书: <a href="https://book.douban.com/series/13484" target="_blank" rel="noopener">混沌沿岸</a><br>ISBN: 9787030464286</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26785959/" target="_blank" rel="noopener">疯狂人类进化史</a></td>
+<td>作者: <a href="https://book.douban.com/search/史钧" target="_blank" rel="noopener">史钧</a> <br>出版社: 重庆出版社<br>出版年: 2016-6<br>ISBN: 9787229109721</td>
+<td><font size="4"><strong>8.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26880628/" target="_blank" rel="noopener">生命之源</a></td>
+<td>作者: <a href="https://book.douban.com/search/尼克‧連恩" target="_blank" rel="noopener">尼克‧連恩(Nick Lane)</a> <br>出版社: 貓頭鷹<br>副标题: 能量、演化與複雜生命的起源<br>原作名: The Vital Question: Energy, Evolution, and the Origins of Complex Life<br>译者: <a href="https://book.douban.com/search/梅苃芢" target="_blank" rel="noopener">梅苃芢</a> <br>出版年: 2016-10<br>&gt;ISBN: 9789862623107</td>
+<td><font size="4"><strong>8.8</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/20492316/" target="_blank" rel="noopener">大宇之形</a></td>
+<td>作者: <a href="https://book.douban.com/search/丘成桐 史蒂夫·纳迪斯" target="_blank" rel="noopener">[美] 丘成桐 史蒂夫·纳迪斯</a> <br>出版社: 湖南科学技术出版社<br>译者: <a href="https://book.douban.com/search/翁秉仁" target="_blank" rel="noopener">翁秉仁</a> / <a href="https://book.douban.com/search/赵学信" target="_blank" rel="noopener">赵学信</a> <br>出版年: 2012-12<br>丛书: <a href="https://book.douban.com/series/1700" target="_blank" rel="noopener">第一推动丛书</a><br>ISBN: 9787535774965</td>
+<td><font size="4"><strong>8.7</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/3795033/" target="_blank" rel="noopener">数学天书中的证明</a></td>
+<td>作者: <a href="https://book.douban.com/search/Martin Aigner" target="_blank" rel="noopener">Martin Aigner</a> / <a href="https://book.douban.com/search/G.M.Ziegler" target="_blank" rel="noopener">G.M.Ziegler</a> <br>出版社: 高等教育出版社<br>原作名: Proofs from The Book<br>译者: <a href="https://book.douban.com/search/冯荣权" target="_blank" rel="noopener">冯荣权</a> / <a href="https://book.douban.com/search/宋春伟" target="_blank" rel="noopener">宋春伟</a> / <a href="https://book.douban.com/search/宗传明" target="_blank" rel="noopener">宗传明</a> <br>出版年: 2009-5<br>ISBN: 9787040262094</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1102715/" target="_blank" rel="noopener">从一到无穷大</a></td>
+<td>作者: <a href="https://book.douban.com/author/428273/" target="_blank" rel="noopener">[美] 乔治·伽莫夫</a> / <a href="https://book.douban.com/search//" target="_blank" rel="noopener">校注 吴伯泽</a> <br>出版社: 科学出版社<br>副标题: 科学中的事实和臆测<br>原作名: One Two Three… Infinity<br>译者: <a href="https://book.douban.com/search/暴永宁 译" target="_blank" rel="noopener">暴永宁 译</a> / <a href="https://book.douban.com/search/吴伯泽 校" target="_blank" rel="noopener">吴伯泽 校</a> <br>出版年: 2002-11<br>丛书: <a href="https://book.douban.com/series/6526" target="_blank" rel="noopener">20世纪科普经典特藏（中译本）</a><br>ISBN: 9787030107596</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26697350/" target="_blank" rel="noopener">极简宇宙史</a></td>
+<td>作者: <a href="https://book.douban.com/author/612120/" target="_blank" rel="noopener">[法] 克里斯托弗·加尔法德</a> <br>出版社: 上海三联书店<br>出品方: <a href="https://book.douban.com/series/39059?brand=1" target="_blank" rel="noopener">新经典文化</a><br>译者: <a href="https://book.douban.com/search/童文煦" target="_blank" rel="noopener">童文煦</a> <br>出版年: 2016-3<br>ISBN: 9787542654434</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1467022/" target="_blank" rel="noopener">上帝掷骰子吗</a></td>
+<td>作者: <a href="https://book.douban.com/author/243729/" target="_blank" rel="noopener">曹天元</a> <br>出版社: 辽宁教育出版社<br>出品方: <a href="https://book.douban.com/series/39047?brand=1" target="_blank" rel="noopener">磨铁图书</a><br>副标题: 量子物理史话<br>出版年: 2006-1<br>ISBN: 9787538276374</td>
+<td><font size="4"><strong>9.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26992254/" target="_blank" rel="noopener">时间的形状</a></td>
+<td>作者: <a href="https://book.douban.com/search/汪洁" target="_blank" rel="noopener">汪洁</a> <br>出版社: 北京时代华文书局<br>副标题: 相对论史话（升级版）<br>出版年: 2017-4<br>ISBN: 9787569914061</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/34429935/" target="_blank" rel="noopener">世界边缘的秘密</a></td>
+<td>作者: <a href="https://book.douban.com/search/光子" target="_blank" rel="noopener">[美]光子</a> <br>出版社: 中信出版集团<br>副标题: 科学对生命的惊人回答<br>出版年: 2019-6<br>ISBN: 9787521705485</td>
+<td><font size="4"><strong>8.6</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/33424487/" target="_blank" rel="noopener">时间的秩序</a></td>
+<td>作者: <a href="https://book.douban.com/author/1987750" target="_blank" rel="noopener">[意] 卡洛·罗韦利</a> <br>出版社: 湖南科学技术出版社<br>出品方: <a href="https://book.douban.com/series/42652?brand=1" target="_blank" rel="noopener">企鹅图书</a><br>原作名: The Order of Time<br>译者: <a href="https://book.douban.com/search/杨光" target="_blank" rel="noopener">杨光</a> <br>出版年: 2019-6<br>丛书: <a href="https://book.douban.com/series/47562" target="_blank" rel="noopener">卡洛·罗韦利诗意科普系列</a><br>ISBN: 9787571001636</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1045119/" target="_blank" rel="noopener">宇宙的琴弦</a></td>
+<td>作者: <a href="https://book.douban.com/author/215319/" target="_blank" rel="noopener">[美] 布赖恩·格林</a> <br>出版社: 湖南科学技术出版社<br>原作名: The Elegant Universe<br>译者: <a href="https://book.douban.com/search/李泳" target="_blank" rel="noopener">李泳</a> <br>出版年: 2004-08<br>丛书: <a href="https://book.douban.com/series/1700" target="_blank" rel="noopener">第一推动丛书</a><br>ISBN: 9787535732705</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/24846072/" target="_blank" rel="noopener">隐藏的现实</a></td>
+<td>作者: <a href="https://book.douban.com/author/215319/" target="_blank" rel="noopener">[美] 布赖恩·格林</a> <br>出版社: 人民邮电出版社<br>副标题: 平行宇宙是什么<br>原作名: The Hidden Reality: Parallel Universes and the Deep Laws of the Cosmos<br>译者: <a href="https://book.douban.com/search/李剑龙" target="_blank" rel="noopener">李剑龙</a> / <a href="https://book.douban.com/search/权伟龙" target="_blank" rel="noopener">权伟龙</a> / <a href="https://book.douban.com/search/田苗" target="_blank" rel="noopener">田苗</a> <br>出版年: 2013-7<br>丛书: <a href="https://book.douban.com/series/20264" target="_blank" rel="noopener">科学新经典文丛</a><br>ISBN: 9787115319074</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/10539147/" target="_blank" rel="noopener">宇宙的结构</a></td>
+<td>作者: <a href="https://book.douban.com/search/布赖恩•格林" target="_blank" rel="noopener">布赖恩•格林 (Brian Greene)</a> <br>出版社: 湖南科学技术出版社<br>副标题: 空间、时间以及真实性的意义<br>译者: <a href="https://book.douban.com/search/刘茗引" target="_blank" rel="noopener">刘茗引</a> <br>出版年: 2013-1-1<br>丛书: <a href="https://book.douban.com/series/1700" target="_blank" rel="noopener">第一推动丛书</a><br>ISBN: 9787535771391</td>
+<td><font size="4"><strong>9.2</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26945180/" target="_blank" rel="noopener">卡尔·马克思</a></td>
+<td>作者: <a href="https://book.douban.com/search/以赛亚·伯林" target="_blank" rel="noopener">[英] 以赛亚·伯林</a> <br>出版社: 译林出版社<br>副标题: 生平与环境<br>原作名: Karl Marx: His Life and Environment<br>译者: <a href="https://book.douban.com/search/李寅" target="_blank" rel="noopener">李寅</a> <br>出版年: 2018-10<br>丛书: <a href="https://book.douban.com/series/45687" target="_blank" rel="noopener">伯林文集</a><br>ISBN: 9787544768276</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1049464/" target="_blank" rel="noopener">唐诗百话</a></td>
+<td>作者: <a href="https://book.douban.com/search/施蛰存" target="_blank" rel="noopener">施蛰存</a> <br>出版社: 华东师范大学出版社<br>出版年: 1996-5<br>ISBN: 9787561713945</td>
+<td><font size="4"><strong>9.5</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30396021/" target="_blank" rel="noopener">生命的运作方式</a></td>
+<td>作者: <a href="https://book.douban.com/search/马伦·霍格兰" target="_blank" rel="noopener">[美] 马伦·霍格兰（Mahlon Hoagland)</a> / <a href="https://book.douban.com/search/伯特·窦德生" target="_blank" rel="noopener">[美] 伯特·窦德生（Bert Dodson）</a> <br>出版社: 后浪丨北京联合出版公司<br>原作名: THE WAY LIFE WORKS<br>译者: <a href="https://book.douban.com/search/洋洲" target="_blank" rel="noopener">洋洲</a> / <a href="https://book.douban.com/search/玉茗" target="_blank" rel="noopener">玉茗</a> <br>出版年: 2018-12<br>ISBN: 9787550296411</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1046620/" target="_blank" rel="noopener">我们为什么生病</a></td>
+<td>作者: <a href="https://book.douban.com/search/R.M.尼斯" target="_blank" rel="noopener">[美] R.M.尼斯</a> / <a href="https://book.douban.com/search/G.C.威廉斯" target="_blank" rel="noopener">[美] G.C.威廉斯</a> <br>出版社: 湖南科学技术出版社<br>副标题: 达尔文医学的新科学<br>原作名: Why We Get Sick: The New Science of Darwinian Medicine<br>译者: <a href="https://book.douban.com/search/易凡" target="_blank" rel="noopener">易凡</a> / <a href="https://book.douban.com/search/禹宽平" target="_blank" rel="noopener">禹宽平</a> <br>出版年: 1998-01<br>丛书: <a href="https://book.douban.com/series/1700" target="_blank" rel="noopener">第一推动丛书</a><br>ISBN: 9787535723253</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1678219/" target="_blank" rel="noopener">夏娃的七个女儿</a></td>
+<td>作者: <a href="https://book.douban.com/search/布莱恩·赛克斯" target="_blank" rel="noopener">布莱恩·赛克斯</a> <br>出版社: 上海科学技术出版社<br>副标题: 追踪人类遗传先祖的科学故事<br>出版年: 2005-6<br>丛书: <a href="https://book.douban.com/series/68" target="_blank" rel="noopener">生命旋梯书系</a><br>ISBN: 9787532379712</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1219557/" target="_blank" rel="noopener">创世纪的第八天</a></td>
+<td>作者: <a href="https://book.douban.com/author/3266015/" target="_blank" rel="noopener">[美] 霍勒斯·贾德森</a> <br>出版社: 上海科学技术出版社<br>副标题: 20世纪分子生物学革命<br>原作名: The Eighth Day of Creation : Makers of Revolution in Biology<br>译者: <a href="https://book.douban.com/search/李晓丹" target="_blank" rel="noopener">李晓丹</a> <br>出版年: 2005-01-01<br>ISBN: 9787532377060</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/4735702/" target="_blank" rel="noopener">DNA：生命的秘密</a></td>
+<td>作者: <a href="https://book.douban.com/search/詹姆斯·沃森" target="_blank" rel="noopener">詹姆斯·沃森（James D. Watson）</a> / <a href="https://book.douban.com/search/安德鲁·贝瑞" target="_blank" rel="noopener">安德鲁·贝瑞（Andrew Berry）</a> <br>出版社: 上海世纪出版集团<br>原作名: DNA: The Secret of Life<br>译者: <a href="https://book.douban.com/search/陈雅云" target="_blank" rel="noopener">陈雅云</a> <br>出版年: 2010-5<br>丛书: <a href="https://book.douban.com/series/3658" target="_blank" rel="noopener">世纪人文系列丛书·开放人文</a><br>ISBN: 9787208090958</td>
+<td><font size="4"><strong>9.0</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26262681/" target="_blank" rel="noopener">普通生物学</a></td>
+<td>作者: <a href="https://book.douban.com/search/吴相钰" target="_blank" rel="noopener">吴相钰</a> / <a href="https://book.douban.com/search/陈守良" target="_blank" rel="noopener">陈守良</a> / <a href="https://book.douban.com/search/葛明德" target="_blank" rel="noopener">葛明德</a> <br>出版社: 高等教育出版社<br>出版年: 2014-8-1<br>ISBN: 9787040396317</td>
+<td><font size="4"><strong>9.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/10602325/" target="_blank" rel="noopener">细胞生物学精要</a></td>
+<td>作者: <a href="https://book.douban.com/search/Bruce Alberts" target="_blank" rel="noopener">Bruce Alberts</a> / <a href="https://book.douban.com/search/Dennis Bray" target="_blank" rel="noopener">Dennis Bray</a> / <a href="https://book.douban.com/search/Karen Hopkin" target="_blank" rel="noopener">Karen Hopkin</a> /<a href="https://book.douban.com/search/Alexander Johnson" target="_blank" rel="noopener">Alexander Johnson</a> / <a href="https://book.douban.com/search/Julian Lewis" target="_blank" rel="noopener">Julian Lewis</a> / <a href="https://book.douban.com/search/Martin Raff" target="_blank" rel="noopener">Martin Raff</a> / <a href="https://book.douban.com/search/Keith Roberts" target="_blank" rel="noopener">Keith Roberts</a> / <a href="https://book.douban.com/search/Peter Walter" target="_blank" rel="noopener">Peter Walter</a> <br>出版社: 科学出版社<br>原作名: Essential Cell Biology(Third Edition)<br>译者: <a href="https://book.douban.com/search/丁小燕" target="_blank" rel="noopener">丁小燕</a> / <a href="https://book.douban.com/search/陈跃磊" target="_blank" rel="noopener">陈跃磊</a> <br>出版年: 2012-3<br>丛书: <a href="https://book.douban.com/series/1576" target="_blank" rel="noopener">生命科学名著</a><br>ISBN: 9787030330154</td>
+<td><font size="4"><strong>9.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/24524242/" target="_blank" rel="noopener">能量、性、死亡：粒線體與我們的生命</a></td>
+<td>作者: <a href="https://book.douban.com/search/尼克．連恩" target="_blank" rel="noopener">尼克．連恩(Nick Lane)</a> <br>出版社: 貓頭鷹<br>译者: <a href="https://book.douban.com/search/林彥綸" target="_blank" rel="noopener">林彥綸</a> <br>出版年: 2013-5<br>ISBN: 9789862621431</td>
+<td><font size="4"><strong>9.1</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/26281143/" target="_blank" rel="noopener">基因组</a></td>
+<td>作者: <a href="https://book.douban.com/author/151145/" target="_blank" rel="noopener">[英] 马特·里德利</a> <br>出版社: 湖南科学技术出版社<br>副标题: 人种自传23章<br>原作名: GENOME: THE AUTOBIOGRAPHY OF A SPECIES IN 23 CHAPTERS<br>译者: <a href="https://book.douban.com/search/刘菁" target="_blank" rel="noopener">刘菁</a> <br>出版年: 2014-11-1<br>丛书: <a href="https://book.douban.com/series/1700" target="_blank" rel="noopener">第一推动丛书</a><br>ISBN: 9787535783455</td>
+<td><font size="4"><strong>9.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30124829/" target="_blank" rel="noopener">灭绝与演化</a></td>
+<td>作者: <a href="https://book.douban.com/search/尼尔斯·艾崔奇" target="_blank" rel="noopener">[美]尼尔斯·艾崔奇</a> <br>出版社: 未读·探索家·北京联合出版公司<br>出品方: <a href="https://book.douban.com/series/39073?brand=1" target="_blank" rel="noopener">未读</a><br>副标题: 化石中的生命全史<br>原作名: Extinction and Evolution: What Fossils Reveal about the History of Life<br>译者: <a href="https://book.douban.com/search/董丽萍" target="_blank" rel="noopener">董丽萍</a> / <a href="https://book.douban.com/search/周亚纯" target="_blank" rel="noopener">周亚纯</a> <br>出版年: 2018-4<br>ISBN: 9787559616340</td>
+<td><font size="4"><strong>9.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/30145197/" target="_blank" rel="noopener">生命简史</a></td>
+<td>作者: <a href="https://book.douban.com/search/理查德·福提" target="_blank" rel="noopener">[英] 理查德·福提</a> / <a href="https://book.douban.com/search/Richard Fortey" target="_blank" rel="noopener">Richard Fortey</a> <br>出版社: 中信出版社<br>出品方: <a href="https://book.douban.com/series/45420?brand=1" target="_blank" rel="noopener">见识城邦</a><br>副标题: 地球生命40 亿年的演化传奇<br>原作名: Life : A Natural History of the First Four Billion Years of Life on Ear<br>译者: <a href="https://book.douban.com/search/高环宇" target="_blank" rel="noopener">高环宇</a> <br>出版年: 2018-6-1<br>ISBN: 9787508686424</td>
+<td><font size="4"><strong>8.5</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/4285592/" target="_blank" rel="noopener">基因X</a></td>
+<td>作者: <a href="https://book.douban.com/search/Krebs" target="_blank" rel="noopener">Krebs</a> <br>出版社: 高等教育出版社<br>出版年: 2010-1<br>丛书: <a href="https://book.douban.com/series/31011" target="_blank" rel="noopener">国外优秀生命科学教学用书</a><br>ISBN: 9787040269611</td>
+<td><font size="4"><strong>9.8</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/27046794/" target="_blank" rel="noopener">古脊椎动物学</a></td>
+<td>作者: <a href="https://book.douban.com/search/Michael J. Benton" target="_blank" rel="noopener">Michael J. Benton</a> <br>出版社: 科学出版社<br>原作名: Vertebrate Palaeontology (Fourth Edition)<br>译者: <a href="https://book.douban.com/search/董为" target="_blank" rel="noopener">董为</a> <br>出版年: 2017-3<br>ISBN: 9787030524935</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/3992999/" target="_blank" rel="noopener">普通动物学</a></td>
+<td>作者: <a href="https://book.douban.com/search/刘凌云" target="_blank" rel="noopener">刘凌云</a> / <a href="https://book.douban.com/search/郑光美" target="_blank" rel="noopener">郑光美</a> <br>出版社: 高等教育出版社<br>出版年: 2009-8<br>ISBN: 9787040267136</td>
+<td><font size="4"><strong>8.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1197956/" target="_blank" rel="noopener">权力论</a></td>
+<td>作者: <a href="https://book.douban.com/author/4554003/" target="_blank" rel="noopener">伯特兰·罗素</a> <br>出版社: 商务印书馆<br>副标题: 新社会分析<br>原作名: Power<br>译者: <a href="https://book.douban.com/search/吴友三" target="_blank" rel="noopener">吴友三</a> <br>出版年: 1991-1<br>ISBN: 9787100006194</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1006940/" target="_blank" rel="noopener">理论物理基础</a></td>
+<td>作者: <a href="https://book.douban.com/search/彭桓武" target="_blank" rel="noopener">彭桓武</a> / <a href="https://book.douban.com/search/等" target="_blank" rel="noopener">等</a> <br>出版社: 北京大学出版社<br>出版年: 1998-04<br>丛书: <a href="https://book.douban.com/series/4636" target="_blank" rel="noopener">北京大学物理学丛书</a><br>ISBN: 9787301037041</td>
+<td><font size="4"><strong>7.8</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/25961458/" target="_blank" rel="noopener">大问题</a></td>
+<td>作者: <a href="https://book.douban.com/search/罗伯特·所罗门" target="_blank" rel="noopener">罗伯特·所罗门</a> <br>出版社: 广西师范大学出版社<br>出品方: <a href="https://book.douban.com/series/39057?brand=1" target="_blank" rel="noopener">理想国</a><br>副标题: 简明哲学导论<br>原作名: The Big Questions: A Short Introduction to Philosophy<br>译者: <a href="https://book.douban.com/search/张卜天" target="_blank" rel="noopener">张卜天</a> <br>出版年: 2014-12<br>丛书: <a href="https://book.douban.com/series/9757" target="_blank" rel="noopener">理想国 人文精选</a><br>ISBN: 9787549558292</td>
+<td><font size="4"><strong>9.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/27167590/" target="_blank" rel="noopener">想透彻</a></td>
+<td>作者: <a href="https://book.douban.com/search/夸梅·安东尼·阿皮亚" target="_blank" rel="noopener">[美] 夸梅·安东尼·阿皮亚</a> <br>出版社: 新华出版社<br>副标题: 当代哲学导论<br>原作名: Thinking it through an introduction to contemporary philosophy<br>译者: <a href="https://book.douban.com/search/姜昊骞" target="_blank" rel="noopener">姜昊骞</a> <br>出版年: 2017-7-31<br>ISBN: 9787516633090</td>
+<td><font size="4"><strong>9.4</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/1253835/" target="_blank" rel="noopener">哲学史教程</a></td>
+<td>作者: <a href="https://book.douban.com/search/文德尔班" target="_blank" rel="noopener">（德）文德尔班</a> <br>出版社: 商务印书馆<br>副标题: 特别关于哲学问题和哲学概念的形成和发展<br>原作名: Lehrbuch der Geschichte der Philosphie<br>译者: <a href="https://book.douban.com/search/罗达仁" target="_blank" rel="noopener">罗达仁</a> <br>出版年: 1987-04<br>丛书: <a href="https://book.douban.com/series/4634" target="_blank" rel="noopener">汉译世界学术名著丛书（精装）</a><br>ISBN: 9787100022972</td>
+<td><font size="4"><strong>9.3</strong></font></td>
+</tr>
+<tr>
+<td><a href="https://book.douban.com/subject/2060491/" target="_blank" rel="noopener">逻辑学导论</a></td>
+<td>作者: <a href="https://book.douban.com/search/欧文·M·柯匹" target="_blank" rel="noopener">[美] 欧文·M·柯匹</a> / <a href="https://book.douban.com/search/卡尔·科恩" target="_blank" rel="noopener">[美] 卡尔·科恩</a> <br>出版社: 中国人民大学出版社<br>副标题: （第11版）<br>原作名: Introduction to Logic<br>译者: <a href="https://book.douban.com/search/张建军" target="_blank" rel="noopener">张建军</a> / <a href="https://book.douban.com/search/潘天群" target="_blank" rel="noopener">潘天群</a> <br>出版年: 2007-3-1<br>&gt;ISBN: 9787300079301</td>
+<td><font size="4"><strong>8.9</strong></font></td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <tags>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>论父母的自我修养</title>
     <url>/2020/03/13/lunfumudeziwoxiuyang/</url>
     <content><![CDATA[<p><br></p>

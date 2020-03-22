@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-03-13T03:55:04.755Z</updated>
+  <updated>2020-03-22T14:51:52.414Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>书单</title>
+    <link href="http://nkduran.github.io/2020/03/22/a-reading-list/"/>
+    <id>http://nkduran.github.io/2020/03/22/a-reading-list/</id>
+    <published>2020-03-22T14:27:47.000Z</published>
+    <updated>2020-03-22T14:51:52.414Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;table-container&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;书名&lt;/th&gt;
+&lt;th&gt;出版信息&lt;/th&gt;
+&lt;th&gt;豆瓣评分&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="阅读" scheme="http://nkduran.github.io/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>论父母的自我修养</title>
