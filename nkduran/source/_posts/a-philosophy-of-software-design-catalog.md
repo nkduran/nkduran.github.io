@@ -94,9 +94,9 @@ categories: 编程艺术
 
    7.1 透传方法 Pass-through methods
 
-   7.2 什么时候接口复制是可以的？ When is interface duplication OK?
+   7.2 什么时候接口重复是可以的？ When is interface duplication OK?
 
-   7.3 修饰符 Decorators
+   7.3 装饰器模式 Decorators
 
    7.4 接口 vs 实现  Interface versus implementation
 
@@ -124,13 +124,13 @@ categories: 编程艺术
 
    9.3 放到一起消除重复 Bring together to eliminate duplication
 
-   9.4 把通用代码和专用代码分开 Separate general-purpose and special-purpose code
+   9.4 将通用代码和专用代码分开 Separate general-purpose and special-purpose code
 
-   9.5 例子：游标插入和检索 Example: insertion cursor and selection
+   9.5 例子：光标插入和选取范围 Example: insertion cursor and selection
 
-   9.6 例子：日志单独的类 Example: separate class for log
+   9.6 例子：日志中的单独类 Example: separate class for log
 
-   9.7 例子：编辑器回退机制 Example: editor undo mechanism
+   9.7 例子：编辑器撤销机制 Example: editor undo mechanism
 
    9.8 分割和连接方法 Splitting and joining methods
 
