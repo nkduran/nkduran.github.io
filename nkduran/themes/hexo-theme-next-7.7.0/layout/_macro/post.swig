@@ -130,8 +130,8 @@
           {%- endif %}
 
           {% if is_pv %}
-              <span class="post-meta-divider">|</span>
-              <span id="busuanzi_value_page_pv"></span>次阅读
+              <!--span class="post-meta-divider">|</span> -->
+              <!-- <span id="busuanzi_value_page_pv"></span>次阅读 -->
           {% endif %}
 
           {{- next_inject('postMeta') }}
