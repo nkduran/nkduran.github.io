@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nkduran.github.io/"/>
-  <updated>2020-05-08T07:32:17.813Z</updated>
+  <updated>2020-05-28T08:39:59.267Z</updated>
   <id>http://nkduran.github.io/</id>
   
   <author>
@@ -15,6 +15,178 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《世界观》读书笔记 (三)</title>
+    <link href="http://nkduran.github.io/2020/05/28/shijieguan-notes-3/"/>
+    <id>http://nkduran.github.io/2020/05/28/shijieguan-notes-3/</id>
+    <published>2020-05-28T08:26:55.000Z</published>
+    <updated>2020-05-28T08:39:59.267Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;第三部分-科学及世界观的新近发展&quot;&gt;&lt;a href=&quot;#第三部分-科学及世界观的新近发展&quot; class=&quot;headerlink&quot; title=&quot;第三部分 科学及世界观的新近发展&quot;&gt;&lt;/a&gt;第三部分 科学及世界观的新近发展&lt;/h3&gt;&lt;h4 id=&quot;第二十三章-狭义相对论&quot;&gt;&lt;a href=&quot;#第二十三章-狭义相对论&quot; class=&quot;headerlink&quot; title=&quot;第二十三章 狭义相对论&quot;&gt;&lt;/a&gt;第二十三章 狭义相对论&lt;/h4&gt;&lt;p&gt;阿尔伯特·爱因斯坦（1879~1955）于1905年发表了狭义相对论，于1916年发表了广义相对论，前者仅仅适用于某些特殊情况，而后者可以广泛应用于各种情况。&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;绝对空间和绝对时间&quot;&gt;&lt;a href=&quot;#绝对空间和绝对时间&quot; class=&quot;headerlink&quot; title=&quot;绝对空间和绝对时间&quot;&gt;&lt;/a&gt;绝对空间和绝对时间&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;静止长度为1米的金属棒如果运动起来，它的长度为多少？&lt;ul&gt;
+&lt;li&gt;如果秉持绝对空间的观点，就会认为空间不会因为运动而缩小或扩大，会认为运动的金属棒还是1米长；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;假设一对同卵双胞胎，同一时刻出生，如果你见到其中一个现在年龄是20岁，那另外一个是多少岁？&lt;ul&gt;
+&lt;li&gt;如果秉持绝对时间的观点，就会认为不管在哪里，对谁来说，时间的流逝都是相等的；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;狭义相对论概述&quot;&gt;&lt;a href=&quot;#狭义相对论概述&quot; class=&quot;headerlink&quot; title=&quot;狭义相对论概述&quot;&gt;&lt;/a&gt;狭义相对论概述&lt;/h5&gt;&lt;p&gt;两个前提条件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;光速恒定原则：在真空中，光速的测量值总是相等；&lt;/li&gt;
+&lt;li&gt;相对性原则：&lt;ul&gt;
+&lt;li&gt;（粗略版）不存在一个优先视角来判定谁在运动而谁是静止的；&lt;/li&gt;
+&lt;li&gt;（严谨版）如果两个观察者在两个完全相同的实验室里，只是两个实验室相对于彼此在进行匀速直线运动（也就是既不加速也不减速），如果此时两个实验室里正在进行完全相同的实验，那么两个实验的结果将完全相同；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;光速恒定原则和相对性原则会造成以下几个结果：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;时间膨胀：运动时，时间流逝按以下比率变慢：&lt;/p&gt;
+&lt;p&gt;$\sqrt{1-(\frac{v}{c})^2}$  ，洛伦兹-菲茨杰拉德方程式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;长度收缩：运动时，长度按以下比率缩短：&lt;/p&gt;
+&lt;p&gt;$\sqrt{1-(\frac{v}{c})^2}$ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;同时性的相对性：从一个正在运动的视角看来同时发生的事件，如果从一个静止的视角来看就不是同时发生的，快的时间如下：&lt;/p&gt;
+&lt;p&gt;$\frac{lv}{c^2}$ , 其中l代表对移动观察者来说两块时钟之间的距离。（相对于运动方向来看，位置在后面的那块时钟，时间走的更快）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;不可抗拒的为什么&quot;&gt;&lt;a href=&quot;#不可抗拒的为什么&quot; class=&quot;headerlink&quot; title=&quot;不可抗拒的为什么&quot;&gt;&lt;/a&gt;不可抗拒的为什么&lt;/h5&gt;&lt;p&gt;我们大多数人一直认为自己关于时间和空间的某些常识性观点是显而易见的经验性事实，但其实都是错误的哲学性/概念性事实。&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;狭义相对论自相矛盾吗&quot;&gt;&lt;a href=&quot;#狭义相对论自相矛盾吗&quot; class=&quot;headerlink&quot; title=&quot;狭义相对论自相矛盾吗&quot;&gt;&lt;/a&gt;狭义相对论自相矛盾吗&lt;/h5&gt;&lt;p&gt;用大卫·莫明在其著作《狭义相对论中的空间和时间》中所使用的方法来解释。&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;时空、不变量以及研究相对论的几何学方法&quot;&gt;&lt;a href=&quot;#时空、不变量以及研究相对论的几何学方法&quot; class=&quot;headerlink&quot; title=&quot;时空、不变量以及研究相对论的几何学方法&quot;&gt;&lt;/a&gt;时空、不变量以及研究相对论的几何学方法&lt;/h5&gt;&lt;p&gt;根据相对论，闵可夫斯基引入的“时空间隔”的属性是一个不变量属性，具体定义如下：&lt;/p&gt;
+&lt;p&gt;​        $s^2=c^2\Delta t^2-\Delta x^2-\Delta y^2-\Delta z^2$&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="读书笔记" scheme="http://nkduran.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="科学史" scheme="http://nkduran.github.io/tags/%E7%A7%91%E5%AD%A6%E5%8F%B2/"/>
+    
+      <category term="科学哲学" scheme="http://nkduran.github.io/tags/%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《世界观》读书笔记 (二)</title>
+    <link href="http://nkduran.github.io/2020/05/28/shijieguan-notes-2/"/>
+    <id>http://nkduran.github.io/2020/05/28/shijieguan-notes-2/</id>
+    <published>2020-05-28T08:26:51.000Z</published>
+    <updated>2020-05-28T08:39:34.905Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;第二部分-从亚里士多德世界观到牛顿世界观的转变&quot;&gt;&lt;a href=&quot;#第二部分-从亚里士多德世界观到牛顿世界观的转变&quot; class=&quot;headerlink&quot; title=&quot;第二部分 从亚里士多德世界观到牛顿世界观的转变&quot;&gt;&lt;/a&gt;第二部分 从亚里士多德世界观到牛顿世界观的转变&lt;/h3&gt;&lt;h4 id=&quot;第九章-亚里士多德世界观中的宇宙结构&quot;&gt;&lt;a href=&quot;#第九章-亚里士多德世界观中的宇宙结构&quot; class=&quot;headerlink&quot; title=&quot;第九章 亚里士多德世界观中的宇宙结构&quot;&gt;&lt;/a&gt;第九章 亚里士多德世界观中的宇宙结构&lt;/h4&gt;&lt;h5 id=&quot;宇宙的物理结构&quot;&gt;&lt;a href=&quot;#宇宙的物理结构&quot; class=&quot;headerlink&quot; title=&quot;宇宙的物理结构&quot;&gt;&lt;/a&gt;&lt;strong&gt;宇宙的物理结构&lt;/strong&gt;&lt;/h5&gt;&lt;p&gt;关于亚里士多德世界观：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;约公元前300年~公元1600年间，亚里士多德世界观在西方世界占主导地位；&lt;/li&gt;
+&lt;li&gt;地心说最初的原因，是以经验为基础的推理结果；（自然朴素的观点，非唯心说）&lt;/li&gt;
+&lt;li&gt;地球是球形的，而不是平的；（在亚里士多德时代之前，人们就已经知道）&lt;/li&gt;
+&lt;li&gt;距离地球最近的天体是月亮，以月球为界分为月上区（月球之外）和月下区（月亮和地球之间）；&lt;/li&gt;
+&lt;li&gt;月球之外行星和太阳的顺序：水星、金星、太阳、火星、木星、土星及所谓的恒星球面；&lt;/li&gt;
+&lt;li&gt;太阳、恒星、行星由类似的物质（以太）构成，而且与地球上的任何物质都不相同；&lt;/li&gt;
+&lt;li&gt;宇宙边缘为恒星球面，以自身轴线为中心转动，转一圈大约24小时，所有恒星与地球距离相等，都镶嵌在恒星球面上，球面转动时带动其上的恒星一起转动。&lt;/li&gt;
+&lt;li&gt;按照现在的标准，其所认为的宇宙大小是一个相对较小的概念；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;关于宇宙的概念性观点&quot;&gt;&lt;a href=&quot;#关于宇宙的概念性观点&quot; class=&quot;headerlink&quot; title=&quot;关于宇宙的概念性观点&quot;&gt;&lt;/a&gt;&lt;strong&gt;关于宇宙的概念性观点&lt;/strong&gt;&lt;/h5&gt;&lt;p&gt;亚里士多德世界观中最重要的两个概念：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;目的论&lt;ul&gt;
+&lt;li&gt;目的论解释vs机械论解释&lt;ul&gt;
+&lt;li&gt;目的论解释：从为实现一个目标、目的或功能的角度给出的解释。比如为什么心脏会跳动？— 为了输送血液；为什么剑龙背上有巨大的骨板？— 为了调节体温。&lt;/li&gt;
+&lt;li&gt;机械论解释：不涉及目标、目的或功能的解释。比如为什么苹果树会结出苹果？— 在苹果树演化过程中，这种可结出苹果的苹果树祖先存活了下来，而且比那些不结苹果的苹果树更容易繁殖。因此，在苹果树这个物种的总数中，这种结出苹果的苹果树所占比例特别高。&lt;/li&gt;
+&lt;li&gt;亚里士多德世界观中，目的论解释被认为是合理的科学解释。而在现代科学中，机械论解释占主导地位；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;亚里士多德世界观中，每个基本元素都有它的天然目标，就是要到达其在宇宙中的天然位置，比如土元素的天然趋势是要到宇宙中心。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;本质论&lt;ul&gt;
+&lt;li&gt;亚里士多德世界观中，天然存在的物体都认为具有本质属性，而物体的本质属性就是目的论的属性。换句话说，物体所具有的本质属性决定了物体会有它的本质属性所展现出来的行为模式。&lt;/li&gt;
+&lt;li&gt;比如橡树果的天然目标是长成一棵成熟的橡树，而这是由橡树果的本质属性决定的，而这个本质属性来自于组成橡树果的物质和这种物质的组成方式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总结：所有自然物体都有本质属性；本质属性是目的论的属性；本质属性决定了物体会有它们所展现出来的行为模式。简言之，宇宙被认为是一个目的论的、本质论的宇宙。&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&quot;第十章-托勒密《至大论》序言：地球是球形的、静止的，并且位于宇宙中心&quot;&gt;&lt;a href=&quot;#第十章-托勒密《至大论》序言：地球是球形的、静止的，并且位于宇宙中心&quot; class=&quot;headerlink&quot; title=&quot;第十章 托勒密《至大论》序言：地球是球形的、静止的，并且位于宇宙中心&quot;&gt;&lt;/a&gt;第十章 托勒密《至大论》序言：地球是球形的、静止的，并且位于宇宙中心&lt;/h4&gt;&lt;p&gt;本章的主要目标之一，是说明尽管亚里士多德世界观中的观点与我们的观点非常不同，但仍然得到了强有力的支撑。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前人的观点并不幼稚或天真；&lt;/li&gt;
+&lt;li&gt;支持亚里士多德世界观的论据是很完整的，虽然最终证明是错误的，但是其中的错误非常不容易察觉；&lt;/li&gt;
+&lt;li&gt;造成论据中错误的原因远不是那么显而易见，这些论据的瑕疵是经过科学史上很多著名人物（比如伽利略、笛卡尔、牛顿）共同努力才找到的；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这里要讨论的论据来自托勒密《至大论》序言，其中托勒密提出了大量关于宇宙结构和运转方式的论据。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;font size=&quot;2&quot;&gt;注：《至大论》在公元150年左右发表，是一本非常专业的科技著作，包括大量的文字和示意图，是一部内容翔实艰深的著作。&lt;/font&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;地球为球形&quot;&gt;&lt;a href=&quot;#地球为球形&quot; class=&quot;headerlink&quot; title=&quot;地球为球形&quot;&gt;&lt;/a&gt;&lt;strong&gt;地球为球形&lt;/strong&gt;&lt;/h5&gt;&lt;p&gt;从古希腊时代开始，受过教育的人中几乎没有人认为地球是平的。而在《至大论》序言中针对地球为球形提出很多论据：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;地球上不同的观察者看到的太阳、月亮升落的时间并不相同，而且住在东边的人看到的早，西边的人看到的晚；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;同一时刻的月食现象，不同观察者记录的时间并不相同；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;越靠近北极，南方天空的星星越少，北方天空的星星开始出现；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;向高山或地势高的地方航行时，无论何时何方向何前进角度，目的地都一点点增加，像是从海底升起来的；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;地球是静止的&quot;&gt;&lt;a href=&quot;#地球是静止的&quot; class=&quot;headerlink&quot; title=&quot;地球是静止的&quot;&gt;&lt;/a&gt;&lt;strong&gt;地球是静止的&lt;/strong&gt;&lt;/h5&gt;&lt;p&gt;早在古希腊时期，人们就思考过地球围绕太阳运动或以自身轴线为中心旋转的可能性。《至大论》明确考虑了后者，并给出了多个论据。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;常识论据：&lt;ul&gt;
+&lt;li&gt;假设地球在运动，考虑自转一周的情况。地球周长约25000英里（古希腊的人们已经有大概认识），如果每天自转一周，在赤道地区，地球表面运动速度将超过1000英里/小时，参考坐车对运动的感受，这么高速的运动人们丝毫没有观察到这样的运动效果，这样就给地球在运动提供了不证实证据；&lt;/li&gt;
+&lt;li&gt;公转的情况类似，速度更快，但是人们没有观察到高速运动的现象；&lt;/li&gt;
+&lt;li&gt;考虑地球上的巨大物体必须有很大的外力作用下，才能保持运动状态，如果地球是运动的，那么这么巨大的外力谁能一直提供呢？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;基于运动物体的论据：&lt;ul&gt;
+&lt;li&gt;现实情形：将一个物体竖直向空中抛出，物体会垂直于地面向上运动，然后垂直落到地球表面；&lt;/li&gt;
+&lt;li&gt;等价问题：我们在运动时，向上竖直抛出一个物体，这个物体会落在我们身后，还是会沿弧线运动，然后重新落在我们手中，或落到我们手边的位置？&lt;/li&gt;
+&lt;li&gt;托勒密针对以上问题根据直觉经验选择落在身后，这就成为针对“地球在运动”的不证实推理的论据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;基于恒星视差的论据：&lt;ul&gt;
+&lt;li&gt;《至大论》中指出恒星的角距离总是保持不变，这个事实支持了“地球是静止的”这一观点；&lt;/li&gt;
+&lt;li&gt;视差是由于观察者的运动造成的物体位置的明显偏移，因为在很长的历史时期中（直到1838年）在地球上都没有观察到恒星视差，所以托勒密确定地球没有在运动；&lt;/li&gt;
+&lt;li&gt;这里的关键辅助假设和距离有关，恒星和地球的距离越大，视差越小。而恰恰这个距离超过了托勒密时期人们的想象，因为过于巨大，导致视差很难被直接观察到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id=&quot;地球在宇宙中心&quot;&gt;&lt;a href=&quot;#地球在宇宙中心&quot; class=&quot;headerlink&quot; title=&quot;地球在宇宙中心&quot;&gt;&lt;/a&gt;&lt;strong&gt;地球在宇宙中心&lt;/strong&gt;&lt;/h5&gt;&lt;p&gt;托勒密引用了多个亚里士多德在《论天》中的论据：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果地球是球形的，且是静止的，通过观察月球、太阳、恒星、行星都围绕地球转动，作为天体的共同中心，认为地球是宇宙中心是很自然的；&lt;/li&gt;
+&lt;li&gt;根据亚里士多德世界观，由于地球本身似乎主要由土元素组成，而土元素有向宇宙中心运动的天然趋势，推导出地球本身位于宇宙中心；&lt;/li&gt;
+&lt;li&gt;“重的物体有一种向宇宙中心运动的天然趋势”是另一个论据；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="读书笔记" scheme="http://nkduran.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="科学史" scheme="http://nkduran.github.io/tags/%E7%A7%91%E5%AD%A6%E5%8F%B2/"/>
+    
+      <category term="科学哲学" scheme="http://nkduran.github.io/tags/%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>山西游之五台山</title>
@@ -142,11 +314,11 @@
   </entry>
   
   <entry>
-    <title>《世界观》读书笔记</title>
+    <title>《世界观》读书笔记 (一)</title>
     <link href="http://nkduran.github.io/2020/03/30/shijieguan-notes/"/>
     <id>http://nkduran.github.io/2020/03/30/shijieguan-notes/</id>
     <published>2020-03-30T01:51:00.000Z</published>
-    <updated>2020-05-16T06:59:31.202Z</updated>
+    <updated>2020-05-28T08:30:53.063Z</updated>
     
     <summary type="html">
     
@@ -273,7 +445,9 @@
     
       <category term="读书笔记" scheme="http://nkduran.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="科学史、科学哲学" scheme="http://nkduran.github.io/tags/%E7%A7%91%E5%AD%A6%E5%8F%B2%E3%80%81%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6/"/>
+      <category term="科学史" scheme="http://nkduran.github.io/tags/%E7%A7%91%E5%AD%A6%E5%8F%B2/"/>
+    
+      <category term="科学哲学" scheme="http://nkduran.github.io/tags/%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6/"/>
     
   </entry>
   
