@@ -7,7 +7,7 @@ tags:
 
 
 
-> 注：转载于虎扑湿乎乎，原文参见[espn辛基辞职信](http://www.espn.com/pdf/2016/0406/nba_hinkie_redact.pdf)。
+> 注：转载自虎扑湿乎乎，原文参见[espn辛基辞职信](http://www.espn.com/pdf/2016/0406/nba_hinkie_redact.pdf)。
 
 <br>
 
