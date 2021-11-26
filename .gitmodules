@@ -1,0 +1,3 @@
+[submodule "nkduran/themes/next8"]
+	path = nkduran/themes/next8
+	url = https://github.com/next-theme/hexo-theme-next

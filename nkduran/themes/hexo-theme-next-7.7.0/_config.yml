@@ -907,7 +907,7 @@ vendors:
   # Internal version: 4.7.0
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-  fontawesome:
+  fontawesome: #//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
